@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5f7c7a5d-054a-4195-8fa5-ccbec636249d
+:END:
+#+title: center of a monoidal category is braided
+#+created: [2024-01-12 Fri 16:06]
+#+setupfile: ~/Documents/org/latex_template.org
+The [[id:804c0654-5e27-497c-baa5-bda651ab009b][center]] of a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] is equipped with a [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braiding]] given by \( c_{(Z,\gamma), (Z', \gamma')} = \gamma'_Z \).

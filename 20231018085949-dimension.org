@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       760a49ff-234e-41d7-911f-7e3c0581f7fb
+:END:
+#+title: dimension
+#+filetags: :fleeting:
+#+created: [2023-10-18 Wed 08:59]
+#+setupfile: ~/Documents/org/latex_template.org
+The *dimension* of an object \( X \) with respect to an isomorphism of [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal]] functors \( a : \operatorname{id} \to ** \) is \( \operatorname{Tr}(a_{X}) \).
+In [[id:97d0ff5f-0354-478e-9551-71752410b2c5][pivotal categories]] this dimension can be taken with respect to the pivotal structure, and in [[id:6acfbcac-8a7b-465e-825d-5640299d8681][spherical categories]] the dimension of objects and duals are the same.

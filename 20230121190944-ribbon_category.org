@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       02790fa5-0095-4320-b7c8-225f269fb335
+:END:
+#+title: ribbon category
+#+filetags: :definition:
+#+last_modified: [2023-01-21 Sat 19:09]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+A *ribbon category* is a [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]] [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] with a twist compatible with the dual objects.
+
+In braided categories equipped with a twist \( \theta\in \operatorname{Aut}(\operatorname{id}) \), morphisms of the form \( u_X \circ \theta_X \) define a tensor automorphism \( \operatorname{id} \to ** \) iff \( \theta_X \) is a ribbon structure, where \( u \) is the Drinfeld morphism.
+
+[[file:figures/drinfeld_morphism.png]]

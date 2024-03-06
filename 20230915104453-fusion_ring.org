@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       78f1307e-2b02-4ce9-a696-815d8899577b
+:END:
+#+title: fusion ring
+#+filetags: :definition:
+#+last_modified: [2023-09-15 Fri 10:44]
+#+setupfile: ~/Documents/org/latex_template.org
+
+A *fusion ring* is a finitely generated ring with \( \mathbf{Z}_+ \) basis: a basis \( \left\{ b_i \right\}_{i\in I} \) such that the product has nonnegative structure constants: \( b_i b_j = \sum_{k\in I}^{} c_{i,j}^k b_{k} \) where \( c_{i,j}^k\in \mathbf{Z}_+ \).
+In addition, fusion rings have an involution \( \mathbf{Z}_+ \to \mathbf{Z}_+ \) taking \( i \mapsto i^{*} \) such that \( c_{i,j}^1 = 1 \) if \( j = i^{*} \) and \( 0 \) otherwise, and the constants \( c_{i,j}^{k^{*}} \) are invariant under cyclic permutation of \( ijk \).
+Here, the fusion ring must be unital, meaning \( 1\in \left\{ b_i \right\}_{i\in I} \).

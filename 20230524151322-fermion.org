@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       737d21d5-5774-46d0-8415-00dac1c3cad6
+:END:
+#+title: fermion
+#+filetags: :definition:
+#+last_modified: [2023-05-24 Wed 15:13]
+#+setupfile: ~/Documents/org/latex_template.org
+
+A *fermion* in a [[id:872a86ea-69d4-4056-a632-e61ff242906f][unitary]] [[id:02790fa5-0095-4320-b7c8-225f269fb335][ribbon]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] is a simple object \( f \) such that \( f \otimes f \cong \mathbf{1} \) and \( \theta_f = -1 \).
+
+Since the [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braiding]] of a \( X^2 \) in a URFC can only be \( \theta_X \operatorname{id}_{X \otimes X} \), an equivalent definition of a fermion in a URFC is an order 2 object such that \( c_{f,f} = -1 \).

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       db3d6dad-efdc-4373-b66c-5bd2a50b5d1c
+:END:
+#+title: G-fixed subcategory of crossed G-braided category is braided
+#+filetags: :fleeting:
+#+created: [2023-12-25 Mon 13:03]
+#+setupfile: ~/Documents/org/latex_template.org
+The [[id:2b4a1083-f8ed-4e15-82f4-2e00c307661d][G-fixed subcategory]] of a [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braided category]] is [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided category]], with the braiding \( c_{X,Y} : X \otimes Y \to Y \otimes X\) being the composition
+\begin{equation}
+X \otimes  Y \to g(Y) \otimes X \xrightarrow{v_{g} \otimes \operatorname{id}}  Y \otimes X.
+\end{equation}
+The first morphism is the [[id:c0826e1f-59a0-4a82-adbf-d295d2eee9b8][G-crossed braiding]].
+
+In words: /the [[id:128555df-5a84-4140-94a5-4929c58c86ed][equivariantization]] of a [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braided category]] produces a [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided category]]/.

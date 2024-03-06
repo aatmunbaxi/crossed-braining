@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0056752e-201c-469e-93db-0c8262ddd7f8
+:END:
+#+title: q-analogue
+#+last_modified: [2023-05-31 Wed 18:32]
+#+setupfile: ~/Documents/org/latex_template.org
+A *q-analogue* is a generalization of a result, definition, theorem, etc. that introduces a new parameter \( q \) such that as the "limit" \( q\to 1 \) is taken, the original result, definition, theorem, etc is recovered.
+
+
+
+Examples include [[id:328a3191-0548-45b3-b605-da22107c16dd][quantum groups]] as \( q \)-deformations of the [[id:af2adb9a-7a55-4d21-9169-d2e675ec6ff2][universal enveloping algebra]] and the \( q \)-binomial theorem ([[id:d5551f7c-714c-449b-a441-03f94e3672d9][see here]]).
+Others include the \( q \)-derivative and \( q \)-exponential.

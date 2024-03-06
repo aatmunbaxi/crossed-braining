@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       aef05226-eb56-4a0e-bce6-e776316a6d97
+:END:
+#+title: every simple Lie algebra is isomorphic to a linear Lie algebra
+#+filetags: :representation-theory:
+#+last_modified: [2023-05-08 Mon 21:45]
+#+setupfile: ~/Documents/org/latex_template.org
+A linear [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] is a subalgebra of \( \mathfrak{gl}(V) \) (the matrix algebra) for some vector space \( V \).
+
+The [[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]] provides an isomorphism from a [[id:24075658-eb53-4eed-ab50-25dc277d5bd6][simple Lie algebra]] and a linear Lie algebra
+
+- This is particularly useful, since this implies we can reduce computations of simple Lie algebras to matrix computations

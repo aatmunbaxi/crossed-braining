@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       912afb0f-f05e-4429-a744-64113db2a17a
+:END:
+#+title: quantum groups/doubles are the main source of modular categories
+#+last_modified: [2023-09-03 Sun 17:38]
+#+setupfile: ~/Documents/org/latex_template.org
+Most [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular categories]] are formed by taking the [[id:32ef7b6a-2143-4b73-acf5-e2f2ee309e62][representation]] [[id:02790fa5-0095-4320-b7c8-225f269fb335][category]] of the [[id:de50dea6-2737-45b4-a8e2-39e479045c4a][quantum double]] of a finite group or taking the [[id:328a3191-0548-45b3-b605-da22107c16dd][quantum group]] at roots of unity.
+It's unclear if all modular categories appear this way.

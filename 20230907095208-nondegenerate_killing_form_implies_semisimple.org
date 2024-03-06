@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       fa305d59-8774-46b7-baea-36c4ecfc8d43
+:END:
+#+title: nondegenerate Killing form criterion for semisimplicity
+#+filetags: :fleeting:
+#+last_modified: [2023-09-07 Thu 09:52]
+#+setupfile: ~/Documents/org/latex_template.org
+The Killing form of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( \mathfrak{g}  \) is nondegenerate (i.e. its radical \( S = \left\{ x\in \mathfrak{g} \mid \kappa(x,y)=0\,\, \forall y\in \mathfrak{g}  \right\} \) is zero) *if and only if* \( \mathfrak{g}  \) is semisimple.
+
+The proof is outlined.
+\( \operatorname{Rad}(\kappa) \) is solvable by Cartan's criterion.
+
+This theorem supplies a computational way to check semisimplicity as opposed to searching for abelian ideals or other methods.
+
+See: [[id:a4da5934-81da-47fd-8ce4-7f54de1a90be][the trace is ad-invariant]]

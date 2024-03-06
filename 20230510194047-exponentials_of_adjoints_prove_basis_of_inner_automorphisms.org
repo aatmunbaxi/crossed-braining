@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ce6323a5-df75-4840-97cc-f696009963f2
+:END:
+#+title: inner automorphisms of Lie algebra
+#+filetags: :definition:representation-theory:
+#+last_modified: [2023-05-10 Wed 19:40]
+#+setupfile: ~/Documents/org/latex_template.org
+An inner automorphism of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] is an automorphism of the form \( \exp \operatorname{ad} x \) where \( \operatorname{ad}x \) is [[id:604d4e4a-d2a4-4653-bdd3-d54140baaea4][nilpotent derivation]].
+
+They form a normal subgroup of the group \( \operatorname{Aut}(L) \) since \( \phi ( \operatorname{ad} x ) \phi ^{-1} = \operatorname{ad} \phi(x) \).

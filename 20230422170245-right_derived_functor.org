@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       58a49504-b4d6-47bc-8261-066ff8373341
+:END:
+#+title: right derived functor
+#+filetags: :definition:draft:
+#+last_modified: [2023-04-22 Sat 17:02]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+* Definition
+Let \( T : \mathcal{A} \to \mathcal{C} \) be an additive [[id:f59ec7eb-a1bb-475f-89d1-3b7db9a51cd1][functor]] between abelian categories, where \( \mathcal{A} \) has enough injectives.
+For each \( B\in \mathcal{A} \), choose an injective resolution
+\begin{equation}
+\mathbf{E} = 0 \to B \xrightarrow{\eta}  E^0 \xrightarrow{d^{0}} E^1 \xrightarrow{d^1 } \cdots
+\end{equation}
+The /right derived functor/ of \( T \) is the homology of the deleted injective resolutions \( \mathbf{E}^{B} \):
+\begin{equation}
+(R^nT)B  = H^n( T \mathbf{E}^{B} ) = \frac{\ker T d^n}{ \operatorname{im} T d^{n-1}}.
+\end{equation}
+Note that mapes \( B \to B' \) induce chain maps \(\overline{f} : \mathbf{E}^B \to \mathbf{E}'^{B'}\), which induce well defined maps \( (R^n T)f : H^n (T \mathbf{E}^B) \to H^n(T \mathbf{E}'^{B'}) \).
+So this is a functor.
+
+There is an analogous /left derived functor/ for projective resolutions, where homologies are computed instead of cohomologies.

@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       710836b0-bc52-4b76-99c3-da1fd57e0015
+:END:
+#+title: bialgebra
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 12:26]
+#+setupfile: ~/Documents/org/latex_template.org
+
+A *bialgebra* over \( k \) is an algebra with comultiplication \( \Delta : H \to H \otimes  H \) and counit \( \epsilon : H \to k \).
+Both should be \( k \)-linear and satisify
+- Coassociativity:
+  \begin{equation}
+  (\Delta \otimes  \operatorname{id}) \Delta = (\operatorname{id} \otimes  \Delta) \circ \Delta
+  \end{equation}
+- Counit axiom:
+  \begin{equation}
+  \label{eq:2}
+  (\epsilon \otimes \operatorname{id}) \Delta = (\operatorname{id} \otimes  \epsilon) \Delta = \operatorname{id}
+  \end{equation}
+
+- Compatibility:
+  - of \( \Delta  \) and \( \nabla \):
+    \begin{equation}
+    \label{eq:3}
+    (\nabla \otimes  \nabla) (\operatorname{id} \otimes  \tau \otimes \operatorname{id})(\Delta \otimes  \Delta) = \Delta \nabla
+    \end{equation}
+    where \( \tau \) is flipping of the tensor entries
+  - of \( \nabla \) and \( \epsilon \):
+    \begin{equation}
+    \label{eq:4}
+    \epsilon \nabla = \epsilon \otimes  \epsilon
+    \end{equation}
+    and
+    \begin{equation}
+    \label{eq:5}
+    \Delta \mu = \mu \otimes  \mu
+    \end{equation}
+  - of \( \mu \) and \( \epsilon \):
+    \begin{equation}
+    \label{eq:6}
+    \epsilon \mu = \operatorname{id}
+    \end{equation}
+
+A commonly studied bialgebra is the [[id:ca8cf6a8-55d1-4c2f-816e-dcb04c073682][Hopf algebra]].

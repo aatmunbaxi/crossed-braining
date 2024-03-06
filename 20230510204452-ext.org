@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3919322b-0cd8-4e9d-aa39-a1709d69e1f8
+:END:
+#+title: Ext
+#+filetags: :homology:definition:
+#+last_modified: [2023-05-10 Wed 20:44]
+#+setupfile: ~/Documents/org/latex_template.org
+The group \( \operatorname{Ext}^i( M,N ) \) is the \( i \)-th cohomology of the complex \( \operatorname*{Hom}_{R}(P_{\bullet} ,N) \), where \( P_{\bullet} \) is a projective resolution of \( M \).
+i.e. \( \operatorname{Ext} \) is the left derived functor of \( \operatorname*{Hom}(-,N) \).
+See [[id:58a49504-b4d6-47bc-8261-066ff8373341][derived functor]]

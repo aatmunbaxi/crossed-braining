@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4a07083f-7f4f-4a44-b57f-c88c83cd113e
+:END:
+#+title: weight space decomposition
+#+created: [2023-11-07 Tue 10:22]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a finite dimensional [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation of Lie algebra]] \( (\pi,V) \) over \( \mathbf{C} \), and a maximal [[id:372cdf75-f5eb-4bdc-80d9-2e2e9b2e9e4f][toral subalgebra]] \( \mathfrak{h}  \), for each \( \mu\in \mathfrak{h} ^{*} \), set \( V(\mu) = \left\{ v : \pi(h)v = \mu(h)v \quad\forall h\in \mathfrak{h}  \right\} \).
+Then
+- If \( V(\mu)\neq 0 \), then \( \mu \in P(\mathfrak{g} ) \)
+- \( V = \bigoplus_{\mu\in P(\mathfrak{g} )}^{} V(\mu) \) as an \( \mathfrak{h}  \)-module

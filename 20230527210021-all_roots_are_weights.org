@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d3f0e56a-3202-4141-b6b3-513f560acbf7
+:END:
+#+title: all roots are weights
+#+last_modified: [2023-05-27 Sat 21:00]
+#+setupfile: ~/Documents/org/latex_template.org
+All roots of a [[id:b23950d7-a56d-4745-aed3-ceb2f6e79c90][root system]] are [[id:f4d82647-012a-46ca-8de1-b707bba56f04][weights]].
+This follows at once from axiom 3, and the fact that abstract root theory is just abstract weight theory applied to the [[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]].

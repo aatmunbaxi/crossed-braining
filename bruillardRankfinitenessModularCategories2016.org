@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       802d47b5-e97d-4303-94cd-8a90041a430c
+:ROAM_REFS: cite:bruillardRankfinitenessModularCategories2016
+:END:
+#+title: Bruillard, P., Ng, S., Rowell, E. C., & Wang, Z.: Rank-finiteness for modular categories
+#+filetags: :reference:
+#+last_modified: [2023-09-30 Sat 18:44]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Bruillard et al_2016_Rank-finiteness for modular categories.pdf
+:END:

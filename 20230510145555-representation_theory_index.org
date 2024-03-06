@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID: 32ef7b6a-2143-4b73-acf5-e2f2ee309e62
+:END:
+#+title: representation theory index
+#+filetags: :index:representation-theory:
+#+last_modified: [2023-05-10 Wed 14:55]
+#+setupfile: ~/Documents/org/latex_template.org
+
+Representation theory is roughly the study of how certain algebraic objects (like groups and [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]]s) act linearly on vector spaces. One reason why we might want to study this is that, on small enough localities, mathematics can be taken to be linear. Linearity is good, since linear algebra is one of the few things mathematicians can claim to know very well. Two major areas of representation theory is the study of [[id:92e8eb74-fedc-4920-ad97-97b06201a693][representation of groups]] and [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation of Lie algebras]].

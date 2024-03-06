@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       35e239fa-ff49-4e5f-bdcd-1e875c38ffe7
+:ROAM_REFS: cite:siehlerNeargroupCategories2003
+:END:
+#+title: Siehler, J.: Near-Group Categories
+#+filetags: :reference:
+#+last_modified: [2023-09-29 Fri 14:22]
+#+setupfile: ~/Documents/org/latex_template.org

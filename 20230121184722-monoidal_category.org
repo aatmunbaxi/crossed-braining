@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       7fc90d0d-1696-4fcb-88b4-48007536481c
+:END:
+#+title: monoidal category
+#+filetags: :category-theory:definition:draft:
+#+last_modified: [2023-01-21 Sat 18:47]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+A *monoidal category* is a category with a tensor product on object, a unit for the tensor which is naturally isomorphic to the untensored object, and the tensor is associative up to natural isomorphism satisfying the pentagon identities and triangle diagram
+
+* Examples
+- \( \mathsf{Vec} \) finite dimensional vector spaces
+- \( \mathsf{Vec}_G^{\omega} \) \( G \)-graded vector spaces with associator twisted by a \( 3 \)-cocycle (see [[id:ee2c65fa-a457-4c49-9023-d2405d09dd21][group cohomology]])
+- \( \mathsf{QCoh}(X) \) quasicoherent [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaves]] over a [[id:436eeda5-0fcf-4741-b906-fcb50805de8d][scheme]] \( X \).
+- \( \mathsf{Rep}(G) \) finite dimensional [[id:92e8eb74-fedc-4920-ad97-97b06201a693][representations of group]]
+  - or \( \mathsf{Rep}(\mathfrak{g}) \) [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][finite dimensional representations of Lie algebras]]
+[[pdf:~/Documents/bib/pdfs/Siehler_2003_Near-group categories.pdf::323][something]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       54106a90-401a-4ec5-a6e4-c4d395c42c08
+:END:
+#+title: G-crossed braided category
+#+filetags: :definition:
+#+created: [2023-11-13 Mon 08:40]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( G \) be a group.
+A \( G\)-crossed braided category is a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] equipped with a (not necessarily faithful) [[id:4e58988f-1008-4772-973d-6cde1fcc8822][grading]], [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-action]], and [[id:c0826e1f-59a0-4a82-adbf-d295d2eee9b8][crossed braiding]] such that the structures play nicely by commuting the following diagrams:
+[[attachment:2023-50-13:08:50:46.png]]
+
+See also: [[id:41934b3f-5219-4b1a-8846-9637c5dec090][G-crossed braided fusion categories are rank-finite]]

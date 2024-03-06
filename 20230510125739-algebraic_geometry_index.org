@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       17421dfd-2eb7-4815-89f9-c15bc2d82c87
+:END:
+#+title: algebraic geometry index
+#+filetags: index:algebraic-geometry:category-theory:
+#+last_modified: [2023-05-10 Wed 12:57]
+#+setupfile: ~/Documents/org/latex_template.org
+Algebraic Geometry began as the study of [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][varieties]] in the classical sense: zero sets cut out by finite collections of polynomials, oftentimes over algebraically closed fields.
+These objects have interesting geometry properties.
+Considering that many real-world systems and interactions are modeled by polynomials, the utility of this study becomes obvious.
+Much geometry can be extracted from this classical definition, but as the objects in question become more complex, they become harder and harder to understand.
+
+Grothendieck rewrote the foundations of algebraic geometry, shifting the central object of study to the [[id:436eeda5-0fcf-4741-b906-fcb50805de8d][scheme]], a more general object analogous to the manifold in differential geometry.
+Of course, every variety in the classical sense is a variety in the modernized sense.
+The basic idea of a scheme is a space equipped with a [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaf]] of rings.
+Since [[id:d1387254-6252-474a-a117-f1cd1db28bd5][sheaves are rules to glue local data]], the process of taking local information and going global became easier.
+
+Unfortunately, the generality of the scheme introduces pathological behavior that is intractable without extra assumptions.
+Algebraic geometers are typically interested in these varieties, and moduli spaces of them, such as the [[id:ed2f0c9f-c5f7-4cd9-a7a8-14fc08f188af][Hilbert scheme]].

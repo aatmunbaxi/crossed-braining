@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       fac30514-13d4-426b-ac68-786311312d11
+:END:
+#+title: construction of de-equivariantization
+#+created: [2024-01-13 Sat 12:51]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( G \) be a finite group and \( \mathcal{D} \) a fusion category with a fully faithful decomposition \( \operatorname{Rep}_k G \to \mathcal{Z}( \mathcal{D} ) \to \mathcal{D} \) (see: [[id:804c0654-5e27-497c-baa5-bda651ab009b][center]]).
+
+Let \( A \) denote the image of the [[id:79fe19b0-28d1-4562-977c-6ed31ee6d3fb][algebra]] \( \operatorname{Fun}(G,k) \) in \( \mathcal{D} \).
+This [[id:79fe19b0-28d1-4562-977c-6ed31ee6d3fb][algebra]] is commutative and etale.
+Let \( \mathcal{C} = \operatorname{Mod}_ \mathcal{D}(A) \).
+The assumptions imply that \(\mathcal{C}  \) is a fusion category with tensor product \( \otimes _A \).
+The action of \( G \) on \( \operatorname{Fun}(G,k) \) by right translation induces the [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-action]] on \( \mathcal{C} \).
+
+The assignment \( \mathcal{D} \to \mathcal{C}^G \) by \( X \to X \otimes A \) the free module is injective (fully faithful) and surjective (any simple object of codomain is a subquotient of an object \( F(X) \)) by comparing [[id:ee62a9d4-e1b1-4bff-b633-0c501960d135][Frobenius-Perron dimension]]s.

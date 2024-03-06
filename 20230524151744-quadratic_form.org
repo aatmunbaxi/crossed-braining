@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9767c2b8-23a6-47f1-a3de-ab1c65690629
+:END:
+#+title: quadratic form
+#+filetags: :definition:
+#+last_modified: [2023-05-24 Wed 15:17]
+#+setupfile: ~/Documents/org/latex_template.org
+A /quadratic form/ on a vector space \( V \) over \( k \) is a map \( V \to k \) such that \( q(av) = a^2 q(v) \) for all \( a\in V \), and the function \( q(u+v) -q(u)-q(v) \) is bilinear.

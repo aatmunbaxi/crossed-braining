@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       604d4e4a-d2a4-4653-bdd3-d54140baaea4
+:END:
+#+title: nilpotent derivation
+#+filetags: :representation-theory:definition:
+#+last_modified: [2023-05-10 Wed 19:46]
+#+setupfile: ~/Documents/org/latex_template.org
+A derivation \( \delta \) is called nilpotent if \( \delta^k =0 \) for some \( k > 0 \)

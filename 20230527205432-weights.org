@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f4d82647-012a-46ca-8de1-b707bba56f04
+:END:
+#+title: weights
+#+filetags: :definition:
+#+last_modified: [2023-05-27 Sat 20:54]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a Euclidean space \( E \) with inner product \( (-,-) \) and [[id:b23950d7-a56d-4745-aed3-ceb2f6e79c90][root system]] \( \Phi \), the *weights* of \( E \) are elements of the set \( \Lambda = \left\{ \lambda\in E\mid \left\langle \lambda,\alpha \right\rangle \in \mathbf{Z},\, \alpha\in \Phi\right\} \).
+Note this set forms an additive subgroup of \( E \) (but not a subspace, as \( \left\langle -,- \right\rangle \) linear) and it [[id:d3f0e56a-3202-4141-b6b3-513f560acbf7][contains]] \( \Phi \).
+
+The elements of \( \Lambda \) such that \( \left\langle \lambda, \alpha \right\rangle \geqslant 0\) for all \( \alpha \) are called *dominant*, and if inequality is sharp, they are called *strongly dominant*.

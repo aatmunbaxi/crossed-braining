@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       e0644a26-887c-411c-b1e3-32fa53f73502
+:END:
+#+title: Cech cohomology
+#+filetags: :definition:draft:
+#+last_modified: [2023-04-20 Thu 20:50]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+** The Construction
+Let \( \mathcal{U}= \left\{ U_j \right\}_J \) be an open cover of a space \( X \).
+For a finite subset of indices \( I = (i_0 , \ldots , i_p) \subset J \), let \( U_{i_j} \) denote the intersection of the \( U_{i_k} \) with the \( U_{i_j} \) omitted.
+Given a [[id:179710fe-efb8-48ac-ab8c-3fc9f48f479f][presheaf]] \( \mathcal{F} \) of abelian groups, define a /Cech \( p \)-cochain/ to be
+\begin{equation}
+C^p( \mathcal{U}, \mathcal{F})= \prod_{\substack{I\subset J \\ I \text{ finite}}} \mathcal{F}(U_{I}) = \left\{ f: J^{p+1} \rightarrow \bigcup_{\substack{I\subset J \\I \text{ finite}}} \mathcal{F}(U_I) : f(I)\in \mathcal{F}(U_I)\right\}.
+\end{equation}
+The coboundary maps are
+\begin{equation}
+\delta^p _{\mathcal{F}} = \sum_{j=1}^{p+1} (-1)^j \mathcal{F}(\delta^{p+1}_j)
+\end{equation}
+where \( \delta_j^{p+1} \) is the inclusion \( U_I \hookrightarrow U_{I_{j}} \) for \( I = (i_0 , \ldots , i_p) \).
+Explicitly, if \( f\in C^p(\mathcal{U}, \mathcal{F}) \), then
+\begin{equation}
+(\delta^p_{\mathcal{F}} f )(I) = \sum_{j=1}^{p+1} (-1)^j (\rho^j _{i_0 , \ldots , i_{p+1}}f) (I_j).
+\end{equation}
+The *Cech cohomology* of this cover and presheaf is the cohomology of the cochain complex
+\begin{equation}
+0 \to C^1( \mathcal{U} , \mathcal{F} ) \to C^2 (\mathcal{U} , \mathcal{F}) \to C^3 ( \mathcal{U}, \mathcal{F} ) \to \cdots
+\end{equation}
+\begin{equation}
+\label{eq:2}
+sum_i ^j a_i = b
+\end{equation}
+\begin{align}
+\label{eq:3}
+something
+\end{align}
+
+#+begin_src common-lisp
+(defun hello (something)
+  (message nil nil "~A" something))
+#+end_src

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       372cdf75-f5eb-4bdc-80d9-2e2e9b2e9e4f
+:END:
+#+title: toral subalgebras generalize diagonal parts
+#+last_modified: [2023-09-28 Thu 10:18]
+#+setupfile: ~/Documents/org/latex_template.org
+A *toral subalgebra* of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] consists of elements that are \( \operatorname{ad} \)-semisimple. i.e. \( \operatorname{ad}x = \operatorname{ad}x_s + \operatorname{ad}x_n \) from the abstract Jordan decomposition \( x = x_s + x_n \).
+
+One can think of this as a (type A) Lie algebraic analogue of a torus; it is elements that somewhat span a punctured complex plane, which is homotopic to a circle. Taking all "diagonal" elements of the Lie algebra as copies of \( S^1 \) in a product of circles is a torus.
+
+This is easily seen when we recognize that in \( \mathfrak{sl} _{r+1} \), the maximal toral subalgebra is spanned by \( E_{ii} - E_{i+1,i+1} \), which are precisely the trace zero diagonal matrices.
+
+Toral subalgebras are nice since every image of their standard representation is simultaneously diagonalizable (see [[id:7bf6923f-4334-4ecc-9748-3483b88044e0][root space decomposition]]).

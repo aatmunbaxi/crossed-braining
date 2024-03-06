@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       179710fe-efb8-48ac-ab8c-3fc9f48f479f
+:END:
+#+title: presheaf
+#+filetags: :definition:category-theory:algebraic-geometry:draft:
+#+last_modified: [2023-04-21 Fri 09:31]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+A presheaf is an assignment of some /local data/ to a space in a way that restrictions from larger localities to smaller localities make sense.
+Here "local" refers to some open subset.
+
+* Definition
+A presheaf with values in a category \(\mathsf{C}\) on a topological space \( X \) is a contravariant functor \( \mathcal{F} : X^{\mathrm{op}}\to \mathsf{C} \)
+
+- Most often, \( \mathsf{C}= \mathsf{Set} \), where the sets have some other structure that lets us understand them beyong just being sets, such as abelian groups, modules, rings, etc.

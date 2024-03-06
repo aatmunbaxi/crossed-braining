@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       693f018d-e761-4044-b7c3-565d3556abae
+:END:
+#+title: normalizer of subalgebra
+#+filetags: :definition:
+#+last_modified: [2023-05-27 Sat 21:25]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( L \) and \( H \subset L \) a subalgebra, the *normalizer* of \( H \) is defined to be \( N_L(H) = \left\{ x\in L \mid [xH] \subset H \right\} \).

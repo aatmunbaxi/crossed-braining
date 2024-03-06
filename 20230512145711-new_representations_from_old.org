@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       4d51f175-74a2-49e0-8518-945007568ecf
+:END:
+#+title: new representations from old
+#+filetags: :definition:representation-theory:
+#+last_modified: [2023-05-12 Fri 14:57]
+#+setupfile: ~/Documents/org/latex_template.org
+
+Given a [[id:92e8eb74-fedc-4920-ad97-97b06201a693][representation of group]] \( \rho : G \to \operatorname{GL}(V) \), we can construct new representations from old in the usual ways.
+
+- Subrepresentation: is a subspace \( W \) invariant under \( \rho_g \) for all \( g\in G \).
+  i.e. \( \rho : G \rightarrow \operatorname{GL}(W) \) is a well defined restriction
+- Direct sum: if \( V,W \) representations, \( V \oplus W \) a representation by \( g(v,w) = (gv,gw) \)
+- Tensor products: if \( V,W \) representations, \( V \otimes  W \) is a representation by \( g( v \otimes  w) = gv \otimes  gw \)
+  - The subrepresentations \( \operatorname{Sym}^n(V), \bigwedge^n V \) as subrepresentations of \( V^{\otimes n} \)
+- Dual representation: given \( \rho \), the dual is \( \rho : G \to \operatorname{GL}(V^{*}) \) by
+\begin{equation}
+\label{eq:1}
+\rho^{*}(g) = \phantom{.}^t \rho( g ^{-1}) : V^{*} \to V^{*}.
+\end{equation}
+This definition is forced on us by the dual pairing holding:
+\begin{equation}
+\label{eq:2}
+\left\langle \rho^{*}(g) (v^{*}) , \rho(g)(v) \right\rangle = \left\langle v^{*} ,v \right\rangle.
+\end{equation}

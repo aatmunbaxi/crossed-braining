@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c9d350dc-5c46-4fd9-921e-c525f684a70b
+:END:
+#+title: symmetry of UMC
+#+created: [2024-03-06 Wed 11:38]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a [[id:872a86ea-69d4-4056-a632-e61ff242906f][unitary]] [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular category]] \( \mathcal{B} \), a *global symmetry* of \( \mathcal{B} \) is a group homomorphism \( \rho  : G \rightarrow \operatorname{Aut}^{\mathrm{br}}_{\otimes }(\mathcal{B}) \) from a group \( G \) to a the group of [[id:7cf7a7c0-793d-4e4b-859b-df3a9a0d10d7][braided autoequivalences]] of \( \mathcal{B} \).

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       f1d918ff-9649-46b1-8e57-552c1ce8bee7
+:END:
+#+title: semisimple Lie algebras are direct sums of simple ideals
+#+last_modified: [2023-09-12 Tue 10:00]
+#+setupfile: ~/Documents/org/latex_template.org
+Every finite dimensional semisimple [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( \mathfrak{g}  \) decomposes as
+\begin{equation}
+\mathfrak{g}  = \bigoplus_{i=1}^{n} \mathfrak{a} _i
+\end{equation}
+such that \([\mathfrak{a} _i , \mathfrak{a}_j ]=0\) for \( i \neq j \).
+Moreover every simple ideal of \( \mathfrak{g}  \) is one of \( \mathfrak{a} _i \), so the splitting is unique.
+The Killing form will be the restrictions to each ideal.
+
+This is an equivalent characterization of semisimplicity, alternative to the definition that \( \operatorname{Rad} \mathfrak{g} =0 \).

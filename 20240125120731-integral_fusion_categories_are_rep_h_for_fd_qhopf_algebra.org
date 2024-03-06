@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       edde8d9d-6d31-46db-9689-ed6bff7d9439
+:END:
+#+title: fusion categories with integral simple FPdims are Rep(H) for fd qHopf algebra
+#+created: [2024-01-25 Thu 12:07]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( \mathcal{C} \) be a fusion category
+The following are equivalent:
+- \( \operatorname{FPdim}(X) \in \mathbf{Z} \) for all objects \( X \) (see [[id:ee62a9d4-e1b1-4bff-b633-0c501960d135][Frobenius-Perron dimension]])
+- \( \mathcal{C} \) is a representation category of a finite dimensional quasi-[[id:ca8cf6a8-55d1-4c2f-816e-dcb04c073682][Hopf algebra]]

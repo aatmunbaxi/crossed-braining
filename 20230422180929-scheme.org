@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       436eeda5-0fcf-4741-b906-fcb50805de8d
+:END:
+#+title: scheme
+#+filetags: :definition:draft:
+#+last_modified: [2023-04-22 Sat 18:09]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+Schemes do for classical algebraic varieties what smooth manifolds did for classical curves and surfaces.
+They are a natural generalization via "patching" together spectra of commutative rings.
+Because of their generality, schemes allow for pathological behavior.
+This makes the job of defining a suitable substitute for the classical variety a chore.
+The upshot of schemes is the sheaf of rings gives a systematic way to globalize local information (see [[id:d1387254-6252-474a-a117-f1cd1db28bd5][here]]), something not true of quasiprojective varieties, where the tools are primitive.
+
+Schemes also generalize some notions from classical geometry, like the idea of a "point".
+
+| Notion            | Classical     | Modern      |
+|-------------------+---------------+-------------|
+| "Point"           | maximal ideal | prime ideal |
+| embedding needed? | yes           | no          |
+
+* Definition
+A /scheme/ is a locally ringed space (i.e. space with a [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaf]] of rings) such that each open subset \( U \subset X \) is \( \operatorname{Spec} A \) for some commutative ring \( A \).
+Schemes that are global spectra of commutative rings are called /affine schemes/.
+* Examples
+- \( \mathbb{A}^1 \) is \( \operatorname{Spec} k[x] \) for algebraically closed field \( k \).
+  More generally, \( \mathbb{A}^n = \operatorname{Spec} k[ x_{1} , \ldots , x_{n}] \).
+
+- Schemes "remember" field extensions.
+  For example, \( \operatorname{Spec} \mathbf{R}[x]/(x^2+1) \) is scheme-theoretically isomorphic to \( \operatorname{Spec} \mathbf{C}[x] \)
+- Schemes also track multiplicities.
+  For example, \( y= x^2 \) and \( y=x \) cut out the same classical [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][variety]] structure in the classical sense, but define different schemes.

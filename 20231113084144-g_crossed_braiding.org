@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c0826e1f-59a0-4a82-adbf-d295d2eee9b8
+:END:
+#+title: G-crossed braiding
+#+filetags: :definition:
+#+created: [2023-11-13 Mon 08:41]
+#+setupfile: ~/Documents/org/latex_template.org
+A \( G \)-crossed braiding is a generalization of a [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braiding]], where the braiding is "pushed off" a subcategory by a [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-action]].
+
+Formally it is a set of natural isomorphisms \( c_{X,Y} : X \otimes Y \to g\cdot Y \otimes X \) where \( X\in \mathcal{C}_g \) and \( Y\in \mathcal{C} \).

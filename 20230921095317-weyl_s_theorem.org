@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a7abd714-4890-4a3a-ba12-699145887164
+:END:
+#+title: Weyl's theorem
+#+filetags: :fleeting:
+#+last_modified: [2023-09-21 Thu 09:53]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( \varphi : \mathfrak{g}  \to \mathfrak{gl} (V) \) be a finite dimensional [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation]] of a [[id:f1d918ff-9649-46b1-8e57-552c1ce8bee7][semisimple Lie algebra]].
+Then \( \varphi(\mathfrak{g} ) \subset  \mathfrak{sl} (V) \) and \(\varphi\) is completely reducible.
+i.e. the representation breaks up into a direct sum of subrepresentations

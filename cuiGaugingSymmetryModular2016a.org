@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b74f654e-a164-488d-9f5c-ffcdcb7a6678
+:ROAM_REFS: cite:cuiGaugingSymmetryModular2016a
+:END:
+#+title: Cui, S. X., Galindo, C., Plavnik, J. Y., & Wang, Z.: On Gauging Symmetry of Modular Categories
+#+filetags: :reference:
+#+created: [2023-12-08 Fri 11:48]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Cui et al_2016_On Gauging Symmetry of Modular Categories.pdf
+:END:
+** Choice of 2-cohomology class with coeffs in Inv(C) determine fusion rules
+:PROPERTIES:
+:NOTER_PAGE: (2 0.7172166439363006 . 0.6371408348868176)
+:END:

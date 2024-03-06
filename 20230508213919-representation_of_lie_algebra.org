@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       16c17c19-a3fd-42ff-8360-50dad4c722ae
+:END:
+#+title: representation of Lie algebra
+#+filetags: :representation-theory:definition:
+#+last_modified: [2023-05-08 Mon 21:39]
+#+setupfile: ~/Documents/org/latex_template.org
+A representation of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( L \) is a linear transformation \( L \to \mathfrak{gl}(V) \) for some vector space \( V \).
+
+The category of finite dimension representations of a Lie algebra form a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]].

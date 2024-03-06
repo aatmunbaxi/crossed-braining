@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       61a554cf-5744-4b80-8233-593127c743db
+:END:
+#+title: super-modular category
+#+filetags: :definition:
+#+last_modified: [2023-09-29 Fri 14:50]
+#+setupfile: ~/Documents/org/latex_template.org
+A *super-modular category* is a [[id:872a86ea-69d4-4056-a632-e61ff242906f][unitary]] [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][premodular category]] such that every non-trivial transparent simple object is isomorphic to a [[id:737d21d5-5774-46d0-8415-00dac1c3cad6][fermion]] \( f \).
+The obstruction to modularity is a nontrivial transparent object--namely the fermion.
+See [[id:6df43694-0646-474e-a3ba-0d1280fc775a][Brugieres' condition for modularity]].
+
+Super-modular categories model electron liquids with FQH effect.

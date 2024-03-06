@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       788a888c-112b-4296-b4de-ef36cbea63c5
+:END:
+#+title: associative zesting
+#+created: [2024-01-22 Mon 11:48]
+#+setupfile: ~/Documents/org/latex_template.org
+*Associative zesting* is the process of "twisting" the [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal]] of a [[id:4e58988f-1008-4772-973d-6cde1fcc8822][graded]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]].
+
+Given a [[id:4e58988f-1008-4772-973d-6cde1fcc8822][G-graded]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] \( \mathcal{C} \) (say universally graded), it involves choosing a \( 2 \)-cocycle \( \lambda :  G \times G \to \operatorname{Inv}( \mathcal{C}_e ) \) and \( 3 \)-cochain \( \nu \) such that the new [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal]] structure satisfies the pentagon axiom and triangle axioms.

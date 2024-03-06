@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       bb4fb805-cba4-465c-9b64-147d4fbe9416
+:END:
+#+title: adjoint representation
+#+filetags: :representation-theory:definition:
+#+last_modified: [2023-05-08 Mon 21:42]
+#+setupfile: ~/Documents/org/latex_template.org
+The adjoint [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation]] of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( L \) is the map \( x \mapsto \operatorname{ad}x \) where \( \operatorname{ad}x(y) = [xy] \).
+This representation has kernel \( Z(L) \) the /center/ of the Lie algebra.
+The image is \( \operatorname{Der}L \subset \mathfrak{gl}(L) \) the Lie algebra of derivations.
+
+The adjoint representation supplies the fact that [[id:aef05226-eb56-4a0e-bce6-e776316a6d97][every simple Lie algebra is isomorphic to a linear Lie algebra]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       423cddd7-1285-4625-a503-1de60fbaef17
+:END:
+#+title: tangent bundle
+#+filetags: :definition:
+#+last_modified: [2023-05-05 Fri 10:41]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+The tangent bundle to a manifold or [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][variety]] is the [[id:4102524e-539b-4f3f-843b-639c1aaa5fcc][vector bundle]] \( TX \to X  \) whose fibers over each point is the tangent space.

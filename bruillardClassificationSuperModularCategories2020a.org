@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       4b6ce232-2eca-43b6-a994-747f7f20a706
+:ROAM_REFS: cite:bruillardClassificationSuperModularCategories2020a
+:END:
+#+title: Bruillard, P., Galindo, C., Ng, S., Plavnik, J. Y., Rowell, E. C., & Wang, Z.: Classification of Super-Modular Categories by Rank
+#+filetags: :reference:
+#+last_modified: [2023-09-30 Sat 17:41]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Bruillard et al_2020_Classification of Super-Modular Categories by Rank.pdf
+:NOTER_PAGE: 6
+:END:
+** Amount of nonsplit supermodular categories for even rank
+:PROPERTIES:
+:NOTER_PAGE: (2 0.3920133992094862 . 0.8504603568773236)
+:END:
+
+| Rank | Type        |
+|------+-------------|
+|    2 | PSU(2)_4k+2 |
+|    4 | PSU(2)_4k+2 |
+|    6 | PSU(2)_4k+2 |
+
+for \( k=0,1,2 \).
+** Muger center characterizes (super)modularity
+:PROPERTIES:
+:NOTER_PAGE: (2 0.7078320750988143 . 0.8293193655514252)
+:END:
+
+[[id:d6cb390d-2a80-4b2f-b997-9b1f2c4db4b2][Muger center characterizes (super)modularity]]
+** Centralizer of a premodular category is expected to be larger than the Muger center
+:PROPERTIES:
+:NOTER_PAGE: (5 0.4851321964461994 . 0.5961052388059702)
+:END:

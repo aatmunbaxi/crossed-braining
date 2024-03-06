@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3e332db7-f7d2-4d6a-98b7-19492f5eeaea
+:ROAM_REFS: cite:bruillardClassificationSupermodularCategories2019
+:END:
+#+title: Bruillard, P., Plavnik, J. Y., Rowell, E. C., & Zhang, Q.: Classification of super-modular categories
+#+filetags: :reference:
+#+last_modified: [2023-09-30 Sat 17:46]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Bruillard et al_2019_Classification of super-modular categories.pdf
+:END:

@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       4831a1ae-6098-4781-92af-d03c8e8dcf32
+:END:
+#+title: braided category
+#+filetags: :category-theory:definition:
+#+last_modified: [2023-01-21 Sat 19:04]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+A *braided category* is a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] in which there are morphisms which measure the extent to which the tensor product doesn't commute.
+
+They are morphisms \( c_{X,Y} : X \otimes Y \to Y \otimes X\) satisfying
+#+begin_center
+\[\begin{tikzcd}
+	{(X\otimes Y)\otimes Z} && {(Y\otimes Z)\otimes X} \\
+	\\
+	{(Y\otimes X)\otimes Z}
+	\arrow["{c_{X,Y}\otimes Id_Z}"', from=1-1, to=3-1]
+	\arrow["{Id_Y\otimes c_{X,Z}}"', from=3-1, to=1-3]
+	\arrow["{c_{X,Y\otimes Z}}", from=1-1, to=1-3]
+\end{tikzcd}\]
+#+end_center
+and
+#+begin_center
+\[\begin{tikzcd}
+	{(X\otimes Y)\otimes Z} && {Z\otimes(X\otimes Y)} \\
+	\\
+	{X\otimes (Z\otimes Y)}
+	\arrow["{c_{X,Z}\otimes Id_Y}"', from=3-1, to=1-3]
+	\arrow["{Id_X\otimes c_{Y,Z}}"', from=1-1, to=3-1]
+	\arrow["{c_{X,Z}\otimes Id_Y}", from=1-1, to=1-3]
+\end{tikzcd}\]
+#+end_center
+
+* Twists
+A *twist* in a braided category \( \mathsf{C} \) is a natural transformation \( \theta : 1_{\mathsf{C}} \Rightarrow 1_{\mathsf{C}} \) such that
+\begin{aquation}
+\theta_{X \otimes Y} = c _{Y,X} c _{X,Y}( \theta _{X} \otimes \theta _{Y}  )
+\end{equation}

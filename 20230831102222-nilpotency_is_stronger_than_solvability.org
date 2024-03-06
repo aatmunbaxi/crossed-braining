@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5fb9f0ac-6254-4be8-869e-61846d951c5b
+:END:
+#+title: nilpotency is stronger than solvability
+#+filetags: :default:
+#+last_modified: [2023-08-31 Thu 10:22]
+#+setupfile: ~/Documents/org/latex_template.org
+A [[id:a071ca4e-e692-4487-855f-5dc3c6bf8190][nilpotent Lie algebra]] is always [[id:5505cff6-4c69-48c0-9f20-cfd528dbf5b4][solvable]], since \( \mathfrak{g} ^{(n)} \subset \mathfrak{g} ^n  \).
+
+The converse is not true; the algebra of upper triangular matrices \( \mathfrak{t} (n,k) \) is solvable but not nilpotent.

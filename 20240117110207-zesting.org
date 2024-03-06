@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c4d7bb09-474b-4f74-b3aa-13ca6419a5d9
+:END:
+#+title: zesting
+#+created: [2024-01-17 Wed 11:02]
+#+setupfile: ~/Documents/org/latex_template.org
+[[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][(braided)]] *zesting* is a procedure to produce new [[id:8079f2ac-766f-4f10-b476-c11379b5f64e][fusion rules]] closely relate to known ones.
+
+It can be applied to any [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]]  or [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braided]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion]] category with a [[id:4e58988f-1008-4772-973d-6cde1fcc8822][grading]] that has some non-trivial invertible objects in the trivial grading component.
+* Types of zesting
+3 types of zesting have been described:
+- [[id:788a888c-112b-4296-b4de-ef36cbea63c5][associative zesting]]
+- braided zesting
+- G-crossed braided zesting

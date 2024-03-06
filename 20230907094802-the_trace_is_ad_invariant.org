@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       a4da5934-81da-47fd-8ce4-7f54de1a90be
+:END:
+#+title: ad-invariant bilinear forms
+#+filetags: :fleeting:
+#+last_modified: [2023-09-07 Thu 09:48]
+#+setupfile: ~/Documents/org/latex_template.org
+The *trace* \( \operatorname{Tr} \) of a [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation of a Lie algebra]] \( \varphi : \mathfrak{g}  \to \mathfrak{gl} (V) \) is \( \operatorname{ad} \)-invariant.
+That is,
+\begin{equation}
+\left\langle x,y \right\rangle_{\varphi} = \operatorname{Tr}( \varphi(x) \circ \varphi(y))
+\end{equation}
+satisfies
+\begin{equation}
+\left\langle [z,x],y \right\rangle_{\varphi}  + \left\langle x,[z,y] \right\rangle=0
+\end{equation}
+In the case that \( \varphi = \operatorname{ad} \) the [[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]], the form \( \left\langle -,- \right\rangle \) is called the *Killing form*.

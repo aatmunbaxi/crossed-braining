@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4dd77779-33f5-42b0-a963-813ddc2e455f
+:END:
+#+title: making representation theory questions nicer
+#+filetags: :default:
+#+last_modified: [2023-09-03 Sun 12:19]
+#+setupfile: ~/Documents/org/latex_template.org
+The goal of [[id:32ef7b6a-2143-4b73-acf5-e2f2ee309e62][representation theory]] is to turn hard problems into nicer linear algebra problems.
+
+Sometimes the structures we're taking representations of don't have nice enough representation theory.
+The birth of objects like [[id:af2adb9a-7a55-4d21-9169-d2e675ec6ff2][universal enveloping algebras]] and [[id:ca8cf6a8-55d1-4c2f-816e-dcb04c073682][Hopf algebras]] are partly motivated by the goal of making the representation theory nicer.
+The former has [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebras]] as their source and the latter as [[id:0273392f-6ba4-44aa-912f-ff0d5221ae3a][group algebras]] as their source.

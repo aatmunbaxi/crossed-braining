@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e2081e1f-410a-4c38-96bd-d9d4a474d4f1
+:END:
+#+title: casimir element
+#+last_modified: [2023-09-19 Tue 10:42]
+#+setupfile: ~/Documents/org/latex_template.org
+The *Casimir element* of a faithful [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation]]  \( \varphi \) is \( c_{\varphi} := \sum_i^{} \varphi(x_i) \circ \varphi(y_i) \) where \( y_i \) is the "orthonormal" basis with respect to the form \( \left\langle x,y \right\rangle  = \operatorname{Tr}(\varphi(x) \circ \varphi(y))\).
+
+In the case that \( \varphi \) is irreducible, \( c_{\varphi} \) is a scalar \( \alpha \) by [[id:4266cf11-616c-40c9-aa4f-9fdba7297b08][Schur's lemma]], and \( \operatorname{Tr}(c_{\varphi}) = \alpha \dim V  = \sum_i^{} \left\langle x_i,y_i \right\rangle = \dim \mathfrak{g}  \), so \( \alpha = \dim V / \dim \mathfrak{g}  \).

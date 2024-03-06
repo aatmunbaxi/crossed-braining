@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID: cc0b27a8-7429-446f-abea-bc00c00a3964
+:END:
+#+title: adjoint rep is derivations for a semisimple LA
+#+filetags: :fleeting:
+#+last_modified: [2023-09-14 Thu 09:55]
+#+setupfile: ~/Documents/org/latex_template.org
+
+For a semisimple [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]], \( \operatorname{ad}(\mathfrak{g} ) = \operatorname{Der}( \mathfrak{g} ) \).

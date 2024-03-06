@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d1ae5b68-ec9b-4d0c-b9e6-03fc5737c87f
+:END:
+#+title: witt equivalence
+#+filetags: :fleeting:
+#+created: [2023-10-30 Mon 16:26]
+#+setupfile: ~/Documents/org/latex_template.org
+Two non-degenerate [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]] \( \mathcal{C}_1 , \mathcal{C}_2 \) are called *Witt equivalent* if there are braided fusion categories \( \mathcal{A}_1, \mathcal{A}_2 \) such that \(  \mathcal{C}_1 \boxtimes \mathcal{Z}(\mathcal{A}_1) \cong \mathcal{C}_2 \boxtimes \mathcal{Z}(\mathcal{A}_2)\) is a braided equivalence where \( \mathcal{Z}(-) \) is the [[id:397a443a-1f50-4aac-aefd-9ced51ba0799][Drinfeld center]] construction.

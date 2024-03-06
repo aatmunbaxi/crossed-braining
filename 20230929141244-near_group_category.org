@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       650c946b-db99-42f8-8f80-b76194e184bc
+:END:
+#+title: near group category
+#+last_modified: [2023-09-29 Fri 14:12]
+#+setupfile: ~/Documents/org/latex_template.org
+A *near group category* is a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] such that all but one of the simple objects is invertible.
+They were introduced in [[id:35e239fa-ff49-4e5f-bdcd-1e875c38ffe7][Siehler, J.: Near-Group Categories]].
+
+The invertible simple objects form a group \( G \), with semisimplicity of the objects implying that the noninvertible object \( X' \) satisfies \( X' \otimes  X' \cong \bigoplus_{g\in G}^{} g \oplus kX' \) for some \( k \geqslant 0 \).
+The data \( (G,k) \) is called the *near group fusion rule*.
+See also [[id:8079f2ac-766f-4f10-b476-c11379b5f64e][fusion matrix]].

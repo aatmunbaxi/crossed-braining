@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       79fe19b0-28d1-4562-977c-6ed31ee6d3fb
+:END:
+#+title: algebra
+#+filetags: :definition:
+#+created: [2024-01-13 Sat 12:09]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( \mathcal{C} \) be a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]].
+An *algebra* (or *monoid*) in \( \mathcal{C} \) is a triple \( (A, m ,\mu) \) where \( A \) is an object, \( m  : A \otimes A \to A \) and \( \mu : \mathbf{1} \to A \) are morphisms such that \( m \circ (m \otimes \operatorname{id}_A)  =m \circ (\operatorname{id}_A \otimes m) \) and \( m \circ (\mu \otimes \operatorname{id}_A) = m \circ (\operatorname{id} \otimes \mu) = \operatorname{id}_A \).
+
+These are precisely the statements that the "multiplication" defined by \( m \) associative and the "unit" \( \mu \) works as you'd expect.

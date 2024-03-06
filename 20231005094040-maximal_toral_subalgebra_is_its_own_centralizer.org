@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f40c8fa8-f3a0-4638-9dc0-0d0390574957
+:END:
+#+title: max toral subalg centralizes itself
+#+filetags: :fleeting:
+#+last_modified: [2023-10-05 Thu 09:40]
+#+setupfile: ~/Documents/org/latex_template.org
+A maximal [[id:372cdf75-f5eb-4bdc-80d9-2e2e9b2e9e4f][toral subalgebra]] of a finite dimensional /semisimple/ [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] over algebraically closed characteristic zero is its own centralizer.
+i.e. \( C_{\mathfrak{g} } ( \mathfrak{h} ) = \mathfrak{h}  \).

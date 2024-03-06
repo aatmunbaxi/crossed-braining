@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID: f59ec7eb-a1bb-475f-89d1-3b7db9a51cd1
+:END:
+#+title: functor
+#+filetags: :category-theory:definition:
+#+last_modified: [2023-05-10 Wed 13:47]
+#+setupfile: ~/Documents/org/latex_template.org
+
+A covariant *functor* \( F : \mathsf{C} \to \mathsf{D}  \) is an assignment of objects and morphisms such that
+- \( Ff : FX \to FY \) for \( f : X\to Y \)
+- \( F(gf)  = F(g)F(f)\)

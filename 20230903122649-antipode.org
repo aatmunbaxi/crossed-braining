@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9fc4dc45-c3a9-4355-923a-9fb6d812565e
+:END:
+#+title: antipode
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 12:26]
+#+setupfile: ~/Documents/org/latex_template.org
+An *antipode* is a \( k \)-linear map on a [[id:710836b0-bc52-4b76-99c3-da1fd57e0015][bialgebra]] \( H \) \(S: H \to H \) such that
+\begin{equation}
+\mu \epsilon = \nabla (\operatorname{id} \otimes S) \Delta = \nabla(S \otimes \operatorname{id}) \Delta.
+\end{equation}

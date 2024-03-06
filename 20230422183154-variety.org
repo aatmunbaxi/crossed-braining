@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4e5b708b-ee01-431f-a594-3c367a00d88d
+:END:
+#+title: variety
+#+filetags: :definition:draft:
+#+last_modified: [2023-04-22 Sat 18:31]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+Varieties are arguably the central objext of study in algebraic geometry.
+They put just enough requirements on schemes for them to be nicely behaved.
+You can check that the classical notion of varieties (zero sets of polynomials) agree with this definition.
+
+* Definition
+A /variety/ is a reduced (no nilpotents), separated (diagonal map is closed embedding) [[id:436eeda5-0fcf-4741-b906-fcb50805de8d][scheme]] of finite type (finite covering by finitely generated algebras).

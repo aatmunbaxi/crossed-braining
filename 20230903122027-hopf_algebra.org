@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ca8cf6a8-55d1-4c2f-816e-dcb04c073682
+:END:
+#+title: Hopf algebra
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 12:20]
+#+setupfile: ~/Documents/org/latex_template.org
+A *Hopf algebra* is a [[id:710836b0-bc52-4b76-99c3-da1fd57e0015][bialgebra]] with invertible [[id:9fc4dc45-c3a9-4355-923a-9fb6d812565e][antipode]] \( S \).
+
+
+
+Hopf algebras can be motivated by making the study of [[id:0273392f-6ba4-44aa-912f-ff0d5221ae3a][group algebra]] [[id:32ef7b6a-2143-4b73-acf5-e2f2ee309e62][representation theory]] nicer.
+See [[id:4dd77779-33f5-42b0-a963-813ddc2e455f][making representation theory questions nicer]].

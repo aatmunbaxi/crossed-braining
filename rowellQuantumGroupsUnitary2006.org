@@ -1,0 +1,132 @@
+:PROPERTIES:
+:ID: f70d153d-0378-4e28-9275-66d0dba27541
+:END:
+#+title: Rowell, E. C.: From Quantum Groups to Unitary Modular Tensor Categories
+#+filetags: :reference:
+#+last_modified: [2023-09-29 Fri 13:47]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT:
+:END:
+** MTCs succeeded modular Hopf algebras
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.1979413180940116)
+:END:
+Turaev gave the definition of modular tensor categories to axiomitize the notion of a \( (2+1) \)-dimensional TQFT.
+** Examples of MTCs that do *not* also arise from Hopf algebras have yet to be produced
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.38631566452028343)
+:END:
+
+But it is expected that they can be constructed.
+Currently the cutting edge of understanding representations of quantum groups is very sharp, so exhibiting MTCs as ones that arise from quantum groups is a more familiar and concrete exercise.
+** Categorical dual objects
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.7332910871261379)
+:END:
+
+Intuitively, the dual of an object in a category is just like the dual of a vector space.
+For example, in \( \mathsf{Vec}_k \), the monoidal unit object is the one dimensional vector space.
+For the morphism
+\begin{equation}
+\label{eq:6}
+b_{X} : \mathbf{1} \to X \otimes X^{*}
+\end{equation}
+just take (a) vector \( v \) in \( X \) as \( \mathbf{1}  \) and send it to its \( v, f_v \) where \( f_v \) is its canonical dual vector.
+
+The morphism \( d_X : X \otimes X^* \rightarrow \mathbf{1} \) takes a pairing \( v \otimes f \) and evaluates \( f \) at \( x \).
+The image is in \( k \), which is the unit object up to isomorphism.
+** Braiding definition
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.17301931504196255)
+:END:
+
+In a monoidal category, a braiding is a "twisting" of the tensor product \(c_{X,Y}: X \otimes Y \rightarrow Y \otimes X \) satisfying some conditions.
+These conditions roughly measure the extent to which the tensor product doesn't commute.
+In simple cases like in \( \mathsf{Vec}_k \), the tensor product does commute, so the braiding would be the canonical isomorphism \( X \otimes Y \cong Y \otimes X \).
+
+The conditions are encoded in the diagrams
+#+begin_center
+\[\begin{tikzcd}
+	{(X\otimes Y)\otimes Z} && {(Y\otimes Z)\otimes X} \\
+	\\
+	{(Y\otimes X)\otimes Z}
+	\arrow["{c_{X,Y}\otimes Id_Z}"', from=1-1, to=3-1]
+	\arrow["{Id_Y\otimes c_{X,Z}}"', from=3-1, to=1-3]
+	\arrow["{c_{X,Y\otimes Z}}", from=1-1, to=1-3]
+\end{tikzcd}\]
+#+end_center
+and
+#+begin_center
+\[\begin{tikzcd}
+	{(X\otimes Y)\otimes Z} && {Z\otimes(X\otimes Y)} \\
+	\\
+	{X\otimes (Z\otimes Y)}
+	\arrow["{c_{X,Z}\otimes Id_Y}"', from=3-1, to=1-3]
+	\arrow["{Id_X\otimes c_{Y,Z}}"', from=1-1, to=3-1]
+	\arrow["{c_{X,Z}\otimes Id_Y}", from=1-1, to=1-3]
+\end{tikzcd}\]
+#+end_center
+** Twist definition
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.2863357876049064)
+:END:
+
+A /twist/ in a braided category is a collection of isomorphism \( \theta_{X} : X \to X \) such that
+\begin{equation}
+\label{eq:7}
+\theta_{X \otimes Y} = c_{Y,X}c_{X,Y}(\theta_X\ \otimes \theta_Y).
+\end{equation}
+** Ribbon category
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.39965226016785027)
+:END:
+
+A /ribbon category/ is a braided monoidal category with a twist compatible with the duals:
+\begin{equation}
+\label{eq:8}
+\theta_{X^{*}} = \theta_X^{*}.
+\end{equation}
+** Structure coefficients
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.8634104163976758)
+:END:
+
+In the Grothendieck semiring over a semisimple ribbon abelian category, there are structure coefficients similar to Cartan's structure equations:
+\begin{equation}
+\label{eq:9}
+X_i \otimes X_j \cong \sum_{k}^{} N_{i,j}^k X_k
+\end{equation}
+where \( X_i \) is one of the simple objects, \( X_0 = \mathbf{1} \).
+** Categorical dimension
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.3486019340232859)
+:END:
+
+The categorical dimension of an object in an /abelian/ category lines up with its Jordan-Holder length.
+See [[*Jordan-Holder][this reference]].
+** Twists of simple objects
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.4113836675291074)
+:END:
+
+Note that a simple object by definition satisfies the conclusion of Schur's lemma, so \( \operatorname{Hom}(X_i,X _{i}) = 0 \).
+Hence the twist of a simple object is just a scalar (\( 0 = k \subset \mathbf{C} \) in an abelian category)
+
+This scalar is denoted \( \theta _{i} \).
+** Hermitian ribbon categories
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.17301931504196255)
+:END:
+
+Hermitian ribbon \( Ab \)-categories have a conjugation \( \dagger : \operatorname*{Hom}(X,Y) \rightarrow \operatorname*{Hom}(Y,X) \) such that it factors over compsition contravariantly, and factors over the tensor product covariantly, and is idemopotent.
+
+If the field over which the linear structure is a subfield of \( \mathbf{C} \), then \( \dagger \) must be complex conjugation.
+** Unitary category
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.361880102646869)
+:END:
+
+If the form \( \left\langle f,g \right\rangle  = trace(fg^{\dagger})\) is positive definite on \( \operatorname*{Hom}\left( X,Y \right) \), then the category is called *unitary*.

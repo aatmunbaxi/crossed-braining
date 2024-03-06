@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       804c0654-5e27-497c-baa5-bda651ab009b
+:END:
+#+title: center
+#+filetags: :definition:
+#+created: [2024-01-12 Fri 15:58]
+#+setupfile: ~/Documents/org/latex_template.org
+THe *center* \( \mathcal{Z}( \mathcal{C} ) \) of a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] consists of pairs \( (Z, \gamma) \) such that \( Z\in \mathcal{C} \) and \( \gamma_X : X \otimes  Z \to Z \otimes X \) is a natural isomorphism such that the diagram
+\begin{center}
+\begin{tikzcd}[ampersand replacement=\&]
+	\& {X\otimes(Z\otimes Y)} \&\& {(X\otimes Z)\otimes Y} \\
+	{X\otimes (Y\otimes Z)} \&\&\&\& {(Z\otimes X)\otimes Y} \\
+	\& {(X\otimes Y)\otimes Z} \&\& {Z\otimes (X\otimes Y)}
+	\arrow[from=2-1, to=1-2]
+	\arrow[from=1-2, to=1-4]
+	\arrow[from=2-1, to=3-2]
+	\arrow[from=3-2, to=3-4]
+	\arrow[from=1-4, to=2-5]
+	\arrow[from=3-4, to=2-5]
+\end{tikzcd}
+\end{center}
+commutes for all \( X,Y \).
+
+Morphisms \( (Z, \gamma) \to (Z', \gamma') \) are morphisms \( Z\to Z' \) such that for all \( X\in \mathcal{C} \), \( (f \otimes \operatorname{id}_X)\circ \gamma_X = \gamma'_X \circ(\operatorname{id}_x \otimes f) \).
+
+The center of a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] category is sometimes called the [[id:397a443a-1f50-4aac-aefd-9ced51ba0799][Drinfeld center]].

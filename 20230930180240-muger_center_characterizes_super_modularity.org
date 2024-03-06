@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d6cb390d-2a80-4b2f-b997-9b1f2c4db4b2
+:END:
+#+title: Muger center characterizes (super)modularity
+#+filetags: :fleeting:
+#+last_modified: [2023-09-30 Sat 18:02]
+#+setupfile: ~/Documents/org/latex_template.org
+The [[id:4f98425c-659c-4bf3-9a95-a6a47db477aa][Muger center]] characterizes the [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modularity]] (or [[id:61a554cf-5744-4b80-8233-593127c743db][supermodularity]]) of a category.
+i.e. modular categories have \( \mathcal{C}' \cong \mathsf{Vec}\) and supermodular categories have \( \mathcal{C}' \cong \mathsf{sVec} \) (the category of [[id:34aeffbd-9317-4b0d-b845-8b4db4b04670][supervector space]])

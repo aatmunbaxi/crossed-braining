@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       d5551f7c-714c-449b-a441-03f94e3672d9
+:END:
+#+title: q-binomial coefficients
+#+filetags: :quantum-algebra:combinatorics:definition:
+#+last_modified: [2023-05-31 Wed 18:08]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Definition
+Let \( q \) be a unit of some field.
+Set for any \( n > 0 \)
+\begin{equation}
+(n)_q = 1 + q + \cdots + q^{n-1} = \frac{q^n-1}{q-1}
+\end{equation}
+and define the *\( \mathbf{q} \)-factorial of \( \mathbf{n} \)* by \( (0)_q! = 1 \) and
+\begin{equation}
+(n)!_q = (1)_q (2)_q \cdots (n)_q = \frac{(q-1)(q^2-1) \cdots (q^n-1)}{(q-1)^n}.
+\end{equation}
+The *Gauss polynomials* for \( 0 \leqslant k \leqslant n \) is defined as
+\begin{equation}
+\binom{n}{k}_q = \frac{(n)!_q}{(k)!_q(n-k)!_{1}}.
+\end{equation}
+These are also called the \( q \)-binomial coefficients.
+* Notes
+- When \( q=1 \), the above definitions are the usual factorial and binomial coefficients
+- The use of \( q \)-binomial coefficients is integral to the development of [[id:328a3191-0548-45b3-b605-da22107c16dd][quantum groups]].
+  - In the quantum plane \( k \left\{ x,y \right\}/ \left\{ xy = qyx \right\} \), the corresponding binomial theorem says
+\begin{equation}
+\label{eq:1}
+(x+y)^n = \sum_{i=0}^{n} \binom{n}{k}_q x^iy^{n-i}.
+\end{equation}

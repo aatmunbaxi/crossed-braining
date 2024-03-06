@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7c4e5281-adbd-452e-a321-959b29a67733
+:END:
+#+title: spin modular category
+#+filetags: :fleeting:
+#+last_modified: [2023-09-29 Fri 16:34]
+#+setupfile: ~/Documents/org/latex_template.org
+A *spin modular category* is a pair \( \left( \mathcal{C}, f \right) \) where \( \mathcal{C} \) is a [[id:872a86ea-69d4-4056-a632-e61ff242906f][unitary]] [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular category]] and \( f \) is a fixed [[id:737d21d5-5774-46d0-8415-00dac1c3cad6][fermion]].
+
+It is conjectured that spin modular categories provide modular resolutions of [[id:61a554cf-5744-4b80-8233-593127c743db][super-modular categories]]. See [[id:5a4e291d-fd95-4426-b279-4f26d5a345bf][Bruillard, P., Galindo, C., Hagge, T., Ng, S., Plavnik, J. Y., Rowell, E. C., & Wang, Z.: Fermionic Modular Categories and the 16-fold Way]].

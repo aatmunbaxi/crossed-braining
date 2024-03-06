@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       04c2e796-c1db-4e7b-8317-6409312fcba6
+:END:
+#+title: Lie algebra
+#+filetags: :representation-theory:
+#+last_modified: [2023-04-28 Fri 12:43]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+* Definition
+A *Lie algebra* is a vector space \( V \) equipped with an operation \( [-,-] : V \times V \to V \) satisfying:
+- Bilinearity
+- \( [xx] = 0 \)
+- (Jacobi) \( [x[yx]] + [y[zx]] + [z[xy]] =0 \)
+
+Note these imply anticommutivity.

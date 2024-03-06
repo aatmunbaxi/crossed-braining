@@ -1,0 +1,375 @@
+:PROPERTIES:
+:ID:       e8b7e2cf-6e72-4477-8e7c-98d462d5065b
+:ROAM_REFS: cite:rowellMathematicsTopologicalQuantum2018
+:END:
+#+title: Rowell-Wang: Mathematics of topological quantum computing
+#+filetags: :reference:
+#+last_modified: [2023-09-24 Sun 18:09]
+#+setupfile: ~/Documents/org/latex_template.org
+
+[[cite:&rowellMathematicsTopologicalQuantum2018]].
+
+* Notes :ATTACH:
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Rowell_Wang_2018_Mathematics of topological quantum computing.pdf
+:END:
+** 1. Introduction
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.36291)
+:END:
+
+*** Qubit is a vector space
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.2450440834621329)
+:END:
+
+
+*** State is /entangled/ if it not a decomposable tensor
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.3360250355486863)
+:END:
+
+*** Turns out that UMCs and (2+1) TQFTs are equivalent!!
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.473165441267388)
+:END:
+This is probaby similar to how \( (1+1) \)-TQFTs are equivalent to Frobenius algebras?
+
+*** Modular tensor category
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.5179480740740741)
+:END:
+#+name:  Module Categories
+#+attr_latex: :options [Module Categories]
+#+begin_definition
+A *modular category* is a braided, ribbon, fusion, abelian, semisimple, monoidal, \( \mathbf{C} \)-linear, with simple tensor unit satisfying the following /modularity condition/:
+
+on the braiding there is an isomorphism
+\begin{equation}
+\label{eq:1}
+K(C) \xrightarrow{\cong} \operatorname{End}(1_C)
+\end{equation}
+given by
+\begin{equation}
+\label{eq:5}
+[U] \mapsto \alpha_{[U]}
+\end{equation}
+where the transformation
+#+end_definition
+See  [[*Rowell, E. C. (2005): From Quantum Groups To Unitary Modular Tensor Categories][Rowell, E. C. (2005): From Quantum Groups To Unitary Modular Tensor Categories]] for details.
+
+*** Modular categories are models of anyon systems in TQC
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.5340021481481483)
+:END:
+
+** 2. The ABC of Topological Quantum Computing
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.700395)
+:END:
+
+
+*** Composite of anyons
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.12351296757114494)
+:END:
+
+A 'composite' of anyons is just a system composed of some anyones
+
+*** Rank of fusion category
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.302519612177366)
+:END:
+
+THe rank of a fusion category is the (finite) number of isomorphism classes of simple objects
+
+*** Projective functor
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.42644728921244207)
+:END:
+
+A projective functor is almost a functor that only factors through morphism composition up to phase.
+
+*** Axioms for unitary topological modular functor
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.7288609095816465)
+:END:
+
+The origin of this functor is a bordism category of compact oriented \( 2 \)-manifolds with boundary colored by simple objects in \( \mathcal{C} \).
+
+The axioms for this functor are:
+- It sends the empty set to \( \mathbf{C} \).
+- It sends the disk to \( \mathbf{C} \) if its boundary is colored by the unit \( \mathbf{1} \), and \( 0 \) otherwise.
+- It sends the annulus to \( \mathbf{C} \) if its inner boundary is the dual simple of the outer boundary, and \( 0 \) otherwise
+- Disjoint unions of boundaries with disjount union boundaries are sent to tensor products of the disjoint union components
+- It sends oppositely oriented objects to the dual of the objects image, subject to some compatibilities with isomorphisms
+- Gluings of manifolds are sent to direct sums of images, subject to isomorphism coherences
+- Each image has a symmetric positive definite pairing subject to compatibilities
+- Algebraic axiom: For every representation there's a choice of basis wrt to which all matrix entries are algebraic numbers
+
+*** Müger Center
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.5647363543463836)
+:END:
+The Müger center of a braided fusion category is a symmetric fusion subcategory of /transparent objects/: objects on which
+\begin{equation}
+\label{eq:10}
+c _{Y,X} c _{X,Y} = Id_{ X \otimes Y}\quad\quad \forall Y \in \mathcal{C}.
+\end{equation}
+
+*** Pivotal structure
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.592308707365627)
+:END:
+
+The /pivotal structure/ of a fusion category is a natural isomorphism
+\begin{equation}
+\label{eq:11}
+j : id_{\mathcal{C}} \to (-)^{**}
+\end{equation}
+as *monoidal* functors.
+
+*** Pivotal traces?
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.6474534134041141)
+:END:
+What is pivotal traces?
+
+See the reference
+
+*** Quantum dimension of object
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.6783287045454546)
+:END:
+
+The quantum dimension of an object is the trace of its identity morphism.
+
+*** Premodular category definition
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.7760204036050158)
+:END:
+
+A *premodular category* is just a ribbon fusion category
+
+*** New equivalence of fusion categories!
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.21755476824378508)
+:END:
+
+*** TODO Figure out what this means intuitively
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.3512283400160385)
+:END:
+Frobenius-Perron dimension.
+
+*** Frobenius Perron dimension of category
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.4180651259021652)
+:END:
+
+Is the square sum of FPdims of the simple objects
+
+*** Categorical dimension of fusion category
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.6687030729751403)
+:END:
+
+Is the square sum of quantum dimensions of simple objects
+
+*** Verlinde formula
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.7689582518043304)
+:END:
+
+Method to compute \( N _{ij} ^{k} \) using the fact that the columns of the \( S \)-matrix are the simultaneous eigenvectors for the fusion matrices.
+
+** 3. Computational Power of Physical Theories
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.740427)
+:END:
+
+*** 3.1. Encoding and Computing Problems
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.607227)
+:END:
+
+*** 3.2. Quantum Framework
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.134412)
+:END:
+
+*** 3.3. Gates, Circuits, and Universality
+:PROPERTIES:
+:NOTER_PAGE: (20 . 0.142597)
+:END:
+
+*** 3.4. Complexity Class BQP
+:PROPERTIES:
+:NOTER_PAGE: (21 . 0.090909)
+:END:
+
+*** 3.5. Simulation of TQFTs
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.349521)
+:END:
+
+*** 3.6. Open Problems
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.822676)
+:END:
+
+** 4. Topological Phases of Matter
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.151085)
+:END:
+
+*** 4.1. Quantum Temperature
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.608369)
+:END:
+
+*** 4.2. Physical Quantization
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.231121)
+:END:
+
+*** 4.3. Phases of Matter
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.488678)
+:END:
+
+*** 4.4. Quantum Qudit Liquids
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.201552)
+:END:
+
+*** 4.5. Many-body Quantum Systems
+:PROPERTIES:
+:NOTER_PAGE: (26 . 0.132749)
+:END:
+
+*** 4.6. Hamiltonian Definition of Topological Phases of Matter
+:PROPERTIES:
+:NOTER_PAGE: (27 . 0.689917)
+:END:
+
+*** 4.7. Realization of UTMF
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.443364)
+:END:
+
+*** 4.8. Realization of UMC
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.204405)
+:END:
+
+*** 4.9. Other Definitions of Topological Phases of Matter
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.286428)
+:END:
+
+*** 4.10. Open Problems
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.384804)
+:END:
+
+** 5. Anyonic Quantum Computation
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.634889)
+:END:
+
+*** 5.1. Topological Qudits
+:PROPERTIES:
+:NOTER_PAGE: (31 . 0.264581)
+:END:
+
+*** 5.2. Topological Gates
+:PROPERTIES:
+:NOTER_PAGE: (31 . 0.740101)
+:END:
+
+*** 5.3. Density of TQFT Representations
+:PROPERTIES:
+:NOTER_PAGE: (33 . 0.378519)
+:END:
+
+*** 5.4. Topological Quantum Compiling
+:PROPERTIES:
+:NOTER_PAGE: (33 . 0.870902)
+:END:
+
+*** 5.5. Open Problems
+:PROPERTIES:
+:NOTER_PAGE: (34 . 0.245836)
+:END:
+
+** 6. On Modular (Tensor) Categories
+:PROPERTIES:
+:NOTER_PAGE: (34 . 0.39828)
+:END:
+
+*** 6.1. Basic Examples of Modular Categories
+:PROPERTIES:
+:NOTER_PAGE: (35 . 0.275143)
+:END:
+
+*** 6.2. New Modular Categories from Old
+:PROPERTIES:
+:NOTER_PAGE: (36 . 0.596098)
+:END:
+
+*** 6.3. Invariants of Modular Categories
+:PROPERTIES:
+:NOTER_PAGE: (38 . 0.446189)
+:END:
+
+*** 6.4. Structure of Modular Categories
+:PROPERTIES:
+:NOTER_PAGE: (40 . 0.472832)
+:END:
+
+** 7. Extensions and More Open Problems
+:PROPERTIES:
+:NOTER_PAGE: (42 . 0.337636)
+:END:
+
+*** 7.1. Fermions
+:PROPERTIES:
+:NOTER_PAGE: (42 . 0.558679)
+:END:
+
+*** 7.2. Symmetry Defects
+:PROPERTIES:
+:NOTER_PAGE: (43 . 0.738898)
+:END:
+
+*** 7.3. Boundaries
+:PROPERTIES:
+:NOTER_PAGE: (44 . 0.614639)
+:END:
+
+*** 7.4. (3+1)-TQFTs and 3D Topological Phases of Matter
+:PROPERTIES:
+:NOTER_PAGE: (45 . 0.562893)
+:END:
+
+** 8. Quantum Matters
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.344881)
+:END:
+
+*** 8.1. Quantum Logic
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.477327)
+:END:
+
+*** 8.2. Complexity Classes as Mathematical Axioms
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.544879)
+:END:
+
+** References
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.6204)
+:END:
+

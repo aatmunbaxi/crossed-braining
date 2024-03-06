@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3b8765a5-7ee7-4eb7-8472-fd7a0f8ad8f9
+:END:
+#+title: associative zesting of a G-graded braided fusion category is G-crossed braided
+#+created: [2024-01-22 Mon 11:52]
+#+setupfile: ~/Documents/org/latex_template.org
+An [[id:788a888c-112b-4296-b4de-ef36cbea63c5][associative zesting]] of a [[id:4e58988f-1008-4772-973d-6cde1fcc8822][G-graded]] [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] is automatically [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braided]].
+
+This is due to the fact that the data of a central extension \( \mathcal{B} \subset \mathcal{C} \) is all that is required to lift a [[id:62025029-74c9-4553-8344-d9416b7e7f83][relative braiding]] to a [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braiding]] in the [[id:4e58988f-1008-4772-973d-6cde1fcc8822][graded]] situation.

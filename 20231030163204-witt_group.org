@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       cb645351-ced1-48a0-930a-8459a5aca680
+:END:
+#+title: witt group
+#+filetags: :fleeting:
+#+created: [2023-10-30 Mon 16:32]
+#+setupfile: ~/Documents/org/latex_template.org
+The categorical *Witt group* is the group of [[id:d1ae5b68-ec9b-4d0c-b9e6-03fc5737c87f][witt equivalence]] classes of non-degenerate [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]].
+Inverses \( [ \mathcal{C}] ^{-1} = [ \mathcal{C}^{\mathrm{rev}}] \) with the reverse braiding.
+This holds because \(  \mathcal{C} \boxtimes \mathcal{C}^{\mathrm{rev}}\simeq \mathcal{Z}( \mathcal{C} )  \).

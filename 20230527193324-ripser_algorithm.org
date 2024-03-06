@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b86fc5ac-7ac1-4bb7-87cf-0ba97dbdbdbb
+:END:
+#+title: ripser algorithm
+#+filetags: :computing:data-analysis:homology:definition:
+#+last_modified: [2023-05-27 Sat 19:33]
+#+setupfile: ~/Documents/org/latex_template.org
+The ripser algorithm is a fast algorithm to compute persistent homology, presenting a 40x speedup compared to its predecessors, and in some cases being 15x more memory efficient.

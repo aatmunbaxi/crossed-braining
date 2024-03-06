@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       c7b27d72-523a-4772-81de-cfdd804995c3
+:END:
+#+title: long exact sequence in (co)homology
+#+filetags: :definition:differential-geometry:algebraic-geometry:algebraic-topology:
+#+last_modified: [2023-04-21 Fri 10:15]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+In any (co)homology theory satisfying the Eilenberg-Steenrod axioms, we can associate to a short exact sequence of chain complexes
+\begin{equation}
+0 \to A_{\bullet} \to B_{\bullet} \to C_{\bullet} \to 0
+\end{equation}
+a long exact sequence in cohomology
+\begin{equation}
+0 \to H^0(A_{\bullet})\to H^0(B_{\bullet}) \to H^0 (C_{\bullet} )\to H^1(A_{\bullet}) \to \cdots
+\end{equation}
+There is a dual sequence for homology.
+
+This sequence is useful if one or two of the (co)homologies from the SES is known.
+
+- For example, any short exact sequence of [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaves]] on \( \mathbb{P}V \)
+\begin{equation}
+0 \to \mathcal{O}(-d) \to \mathcal{B}\to \mathcal{C}\to 0
+\end{equation}
+will exploit the LES to show that \( h^0(\mathcal{C}) \geqslant  h^0( \mathcal{B} ) \), since \( h^0( \mathcal{O}(-d) )=0 \).

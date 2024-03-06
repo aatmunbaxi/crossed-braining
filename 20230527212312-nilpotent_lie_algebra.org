@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a071ca4e-e692-4487-855f-5dc3c6bf8190
+:END:
+#+title: nilpotent Lie algebra
+#+filetags: :definition:
+#+last_modified: [2023-05-27 Sat 21:23]
+#+setupfile: ~/Documents/org/latex_template.org
+A [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] is called *nilpotent* if the lower central series \( L^n = [L, L^{n-1}] \) stabilizes at \( 0 \) in finite length.
+
+Note [[id:5fb9f0ac-6254-4be8-869e-61846d951c5b][nilpotency is stronger than solvability]]
+
+Note [[id:b553b652-ce0f-4c26-b5bb-0cc0ad1e555d][the center avoids nilpotency, but not trivially]]

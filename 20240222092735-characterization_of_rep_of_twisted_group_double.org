@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       dab1053b-8e4c-4bb7-9f58-a2d6ad1723f2
+:END:
+#+title: characterization of Rep of twisted group double
+#+created: [2024-02-22 Thu 09:27]
+#+setupfile: ~/Documents/org/latex_template.org
+The [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] \( \operatorname{Rep}(D^{\omega } (G)) \) (the representation category of the twisted [[id:de50dea6-2737-45b4-a8e2-39e479045c4a][quantum double]] of a finite group) is equivalent to the [[id:397a443a-1f50-4aac-aefd-9ced51ba0799][Drinfeld center]] of the category \( \mathsf{Vec}_G^{\omega} \) of twisted \( G \)-graded vector spaces

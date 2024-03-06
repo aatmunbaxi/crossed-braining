@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       fd200832-1191-40cf-9e86-ed50893c3709
+:END:
+#+title: integral fusion category
+#+created: [2024-01-29 Mon 14:27]
+#+setupfile: ~/Documents/org/latex_template.org
+A [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] is called *integral* if \( \operatorname{FPdim}(X)\in \mathbf{Z} \) for every object \( X\in \mathcal{C} \).
+
+It is called *weakly integral* if only \( \operatorname{FPdim} (\mathcal{C})\in \mathbf{Z} \).
+
+
+See: [[id:ee62a9d4-e1b1-4bff-b633-0c501960d135][Frobenius-Perron dimension]]

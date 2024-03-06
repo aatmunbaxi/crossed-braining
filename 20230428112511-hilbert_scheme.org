@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ed2f0c9f-c5f7-4cd9-a7a8-14fc08f188af
+:END:
+#+title: Hilbert scheme
+#+filetags: :algebraic-geometry:definition:draft:
+#+last_modified: [2023-04-28 Fri 11:25]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+* Definition
+The Hilbert scheme is the representing object of the Hilbert functor \( \mathsf{Hilb}_X : \underline{S-Schemes} \to \underline{Set} \), taking an \( S \)-scheme \( T\to S \) to the set of sub[[id:436eeda5-0fcf-4741-b906-fcb50805de8d][scheme]]s \( Z \subset X \times _S T \) such that \( Z \to T \) is flat, proper, and of finite presentation.

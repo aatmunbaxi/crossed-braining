@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       97d0ff5f-0354-478e-9551-71752410b2c5
+:END:
+#+title: pivotal category
+#+filetags: :fleeting:
+#+created: [2023-10-18 Wed 08:53]
+#+setupfile: ~/Documents/org/latex_template.org
+A rigid [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] is said to be *pivotal* if it can be equipped with an monoidal isomorphism of [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal]] functors \( i : \operatorname{id} \to \phantom{A}^{**} \).

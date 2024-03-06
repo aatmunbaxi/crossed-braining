@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       328a3191-0548-45b3-b605-da22107c16dd
+:END:
+#+title: quantum group
+#+filetags: :definition:
+#+last_modified: [2023-05-31 Wed 18:12]
+#+setupfile: ~/Documents/org/latex_template.org
+The *quantum group* has several possible definitions, but is often taken as the [[id:0056752e-201c-469e-93db-0c8262ddd7f8][q-analog]] of the [[id:af2adb9a-7a55-4d21-9169-d2e675ec6ff2][universal enveloping algebra]] \( U(\mathfrak{g}) \).
+
+* TODO Definition
+Let \( \Pi \) be a basis of a [[id:b23950d7-a56d-4745-aed3-ceb2f6e79c90][root system]] of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( \mathfrak{g} \) with respect to a [[id:243f352a-3157-478a-8ce7-7aea2343332f][Cartan subalgebra]].
+Let \( A = (a_{\alpha\beta}) \) be the [[id:bba12faa-7b6f-4e73-b44a-29ac4a8a83f2][Cartan matrix]].

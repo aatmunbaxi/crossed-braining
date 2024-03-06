@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f00fe527-fdbe-4480-8bfc-849b61c84038
+:END:
+#+title: invertible object
+#+created: [2024-01-17 Wed 11:58]
+#+setupfile: ~/Documents/org/latex_template.org
+An object in a rigid [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] is an object whose evaluation and coevaluation maps are isomorphisms.
+i.e. \( X^* \otimes  X \cong \mathbf{1} \cong X \otimes  X^{*} \).
+
+This gives the structure of an abelian group on the set of invertible objects.

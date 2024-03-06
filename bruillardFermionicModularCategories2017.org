@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       5a4e291d-fd95-4426-b279-4f26d5a345bf
+:ROAM_REFS: cite:bruillardFermionicModularCategories2017
+:END:
+#+title: Bruillard, P., Galindo, C., Hagge, T., Ng, S., Plavnik, J. Y., Rowell, E. C., & Wang, Z.: Fermionic Modular Categories and the 16-fold Way
+#+filetags: :reference:
+#+last_modified: [2023-09-29 Fri 14:42]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Bruillard et al_2017_Fermionic Modular Categories and the 16-fold Way.pdf
+:NOTER_PAGE: 37
+:END:
+** super-modular category
+:PROPERTIES:
+:NOTER_PAGE: (1 0.6356522880228137 . 0.7280605557894738)
+:END:
+- [[id:61a554cf-5744-4b80-8233-593127c743db][super-modular category]]
+** 16-fold way conjecture
+:PROPERTIES:
+:NOTER_PAGE: (2 0.361671968503937 . 0.6268044584647741)
+:END:
+- [[id:91868ada-bc42-474c-89a6-d34bfb3b6a62][16 fold way conjecture]]
+** Properties of RFCs that admit fermions
+:PROPERTIES:
+:NOTER_PAGE: (7 0.14741078431372548 . 0.5141145720294427)
+:END:
+** Spin modular category definition
+:PROPERTIES:
+:NOTER_PAGE: (3 0.22384591660110148 . 0.6969261745531021)
+:END:
+
+[[id:7c4e5281-adbd-452e-a321-959b29a67733][spin modular category]]

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       af2adb9a-7a55-4d21-9169-d2e675ec6ff2
+:END:
+#+title: universal enveloping algebra
+#+filetags: :definition:
+#+last_modified: [2023-05-31 Wed 18:34]
+#+setupfile: ~/Documents/org/latex_template.org
+The universal enveloping algebra of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] is the "smallest" algebra containing that Lie algebra.
+It is one way we can translate problems in [[id:32ef7b6a-2143-4b73-acf5-e2f2ee309e62][representation theory]] to problems in module theory and algebra.
+
+It is a [[id:f59ec7eb-a1bb-475f-89d1-3b7db9a51cd1][functor]] \( \mathsf{Lie}_k \to \mathsf{AssocAlg}_k \) from the category of Lie algebras over a field \( k \) to the category of associative \( k \)-algebras.
+The UEA is a [[id:ca8cf6a8-55d1-4c2f-816e-dcb04c073682][Hopf algebra]].
+
+* Definition
+Let \( \mathfrak{g} \) be a Lie algebra.
+The *universal enveloping algebra* of \( \mathfrak{g} \) is an associative algebra \( U(\mathfrak{g}) \) and a monomorphism \( i_{\mathfrak{g}} : \mathfrak{g} \to L(U(\mathfrak{g})) \)  satisfying the following universal property:
+for any associative algebra \( A \) and Lie algebra morphism \( f : \mathfrak{g} \to L(A) \), there is a unique algebra morphism \( U(f) : U(\mathfrak{g}) \to A \) such that \( U(f) \circ i_{\mathfrak{g}} = f \).
+
+This result expresses a natural isomorphism
+\begin{equation}
+\label{eq:1}
+\operatorname{Hom}_{\mathrm{Lie}} ( \mathfrak{g} ,L(A)) \cong \operatorname{Hom}_{\mathrm{Alg}}(U_{\mathfrak{g}}, A).
+\end{equation}

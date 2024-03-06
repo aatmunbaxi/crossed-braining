@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8079f2ac-766f-4f10-b476-c11379b5f64e
+:END:
+#+title: fusion matrix
+#+filetags: :definition:
+#+last_modified: [2023-09-16 Sat 18:13]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] \( \mathcal{C} \) with ordered set of simple objects \( \left\{ \mathbf{1} , X_1 , \ldots , X_n \right\} \), define \( N_{i,j}^k = \dim \operatorname*{Hom}(X_k , X_i \otimes  X_j) \).
+The matrix \( [N_k]_{i,j} \) for each \( k \) are called *fusion matrices*, with entries called *fusion rules*.

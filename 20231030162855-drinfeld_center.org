@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       397a443a-1f50-4aac-aefd-9ced51ba0799
+:END:
+#+title: Drinfeld center
+#+filetags: :fleeting:
+#+created: [2023-10-30 Mon 16:28]
+#+setupfile: ~/Documents/org/latex_template.org
+For [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal categories]], the *Drinfeld center* is a synonym for the [[id:804c0654-5e27-497c-baa5-bda651ab009b][center]] of the category.

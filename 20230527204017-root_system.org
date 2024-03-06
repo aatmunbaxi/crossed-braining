@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       b23950d7-a56d-4745-aed3-ceb2f6e79c90
+:END:
+#+title: root system
+#+filetags: :definition:
+#+created: [2023-05-27 Sat 20:40]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( E \) be some Euclidean space (an \( \mathbf{R} \)-inner product space).
+A subset \( \Phi \) is called a *root system* in \( E \) if the following hold:
+1. \( \Phi \) is finite, spans, and does not contain \( 0 \)
+2. If \( \alpha\in \Phi \), then the multiples of \( \alpha \) in \( \Phi \) are \( \pm \alpha \)
+3. If \( \alpha\in \Phi \), the reflection \( \sigma_{\alpha} = \beta - a_{\beta,\alpha}\alpha \) leaves \( \Phi \) invariant
+4. If \( \alpha,\beta\in \Phi \), then \( \left\langle \beta,\alpha \right\rangle \in \mathbf{Z}\).
+
+Here, \( \left\langle -,- \right\rangle \) is not the standard inner product on \( E \), but the function
+\begin{equation}
+\label{eq:1}
+\left\langle \beta,\alpha \right\rangle = \frac{2(\beta,\alpha)}{(\alpha,\alpha)}
+\end{equation}
+where \( (-,-) \) is the standard inner product on \( E \).
+
+See [[id:7bf6923f-4334-4ecc-9748-3483b88044e0][root space decomposition]] for an idea of where this definition comes from.
+
+* Properties
+- Knowing \( (\Phi, E) \) of \( \mathfrak{g}  \) determines \( (\mathfrak{g}  ,[-,-]) \).
+- These axioms essentially all come from the classification of \( \mathfrak{sl} _2 \) representations and understanding their weights and roots, then using the fact that given a [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation of a semisimple Lie algebra]] over alg closed char 0 field, one can find copies of \( \mathfrak{sl} _2 \) in there.
+- Two root spaces \( \Phi_1,\Phi_2 \) are called *isomorphic* if there is an isomorphism \( \varphi: V_1 \to V_2 \) such that \( \varphi(\Phi_1) = \Phi_2 \) and \( (\varphi(\beta), \varphi)\alpha) = (\beta,\alpha) \).
+- There is a 1-1 correspondence between pairs \( (\mathfrak{g}  , \mathfrak{h} ) \) of semisimple Lie algebras over algebraically closed fields and maximal toral subalgebras and pairs \( (\Phi, E) \) of root systems \( \Phi \) and Euclidean spaces \( E \).

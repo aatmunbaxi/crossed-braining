@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       3376ee61-d136-4d0f-97cb-d054a6e5da9a
+:END:
+#+title: modular categories model nontrivially interacting anyon systems in TPMs
+#+last_modified: [2023-09-15 Fri 12:53]
+#+setupfile: ~/Documents/org/latex_template.org
+Quasi particles are declared to be simple objects in a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]], with the [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal unit]] \( \mathbf{1} \) being the vacuum state, and duals being antiparticles.
+The interactions of passing the particles between each other is the action of the [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braiding]] on the tensor product of the two particles, and are encoded as a value in the [[id:86239a40-ee69-4ffd-bf07-296c74dff52b][trace]].
+A [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular category]] of rank \( n \) models \( n \) /nontrivially/ interacting basis anyons in a 2+1 topological phase of matter.
+The nontrivial interaction is made rigorous with [[id:6df43694-0646-474e-a3ba-0d1280fc775a][Brugieres' condition for modularity]].
+
+There is a dictionary of sorts of these relations
+
+| Categorical interpretation   | Physical Interpretation     |
+|------------------------------+-----------------------------|
+| Simple objects               | Anyons                      |
+| Tensor structure             | Particle fusion             |
+| Evaluation                   | Particle annihilation       |
+| Coevaluation                 | Particle creation           |
+| Unit object \( \mathbf{1} \) | Vacuum state                |
+| Dual objects                 | Antiparticles (anti-anyons) |
+| Braiding                     | Particle exchange           |
+| Quantum dimension \( d_X \)  | ??                          |
+| Twist \( \theta_X \)         | Topological spin            |
+
+This table can also be found in [[id:e8b7e2cf-6e72-4477-8e7c-98d462d5065b][Rowell-Wang: Mathematics of topological quantum computing]].

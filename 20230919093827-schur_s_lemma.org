@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       4266cf11-616c-40c9-aa4f-9fdba7297b08
+:END:
+#+title: Schur's lemma
+#+filetags: :fleeting:
+#+last_modified: [2023-09-19 Tue 09:38]
+#+setupfile: ~/Documents/org/latex_template.org
+
+The only endomorphisms of an irreducible (i.e. only subrepresentations are \( 0 \) and itself) [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representation of Lie algebra]] are the scalars.

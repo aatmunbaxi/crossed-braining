@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       393d2a88-d753-4dca-b2b7-fd5789af84e6
+:END:
+#+title: coherent sheaves generalize vector bundles
+#+filetags: :draft:
+#+last_modified: [2023-05-05 Fri 10:38]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+- The [[id:cae8c301-8a40-4b60-85ad-ba28ab4d5702][coherent sheaf]] generalizes the notion of a [[id:4102524e-539b-4f3f-843b-639c1aaa5fcc][vector bundle]], but allows the 'fibers' to occur in whatever kind of category we want.
+- The advantage of this is the category of coherent sheaves form an abelian category, meaning we can take images, kernels, cokernels, and do homological algebra.
+- An example of a coherent sheaf that is not a vector bundle is the [[id:423cddd7-1285-4625-a503-1de60fbaef17][tangent bundle]] to a singular [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][variety]].
+  The fibers jump in rank at singularities, so it can't be a vector bundle

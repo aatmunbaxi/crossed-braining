@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       86239a40-ee69-4ffd-bf07-296c74dff52b
+:END:
+#+title: categorical/quantum trace
+#+filetags: :definition:
+#+last_modified: [2023-09-15 Fri 11:13]
+#+setupfile: ~/Documents/org/latex_template.org
+In a spherical category, the *trace* is the scalar
+#+begin_src artist
+            -----------
+        ---/           \---
+    X -/                   \-
+     /                       \
+    /                         \
++-----+---+                    \
++    f    |                    |
++---------+                    /
+    \                         /
+     \                       /
+      -\                   /-
+    X   ---\           /---
+            -----------
+#+end_src

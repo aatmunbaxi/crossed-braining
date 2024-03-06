@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       701a4e2f-0726-453e-a293-e14c373f94ea
+:END:
+#+title: G-action on category
+#+filetags: :definition:
+#+created: [2023-11-13 Mon 08:41]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( G \) be a group.
+A \( G \)-action on a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] is a functor \( \operatorname{Cat}(G) \to \operatorname{End}_{\otimes }(\mathcal{C}) \).
+Here \( \operatorname{Cat}(G) \) is the category defined by objects being elements of \( G \) and tensor product being the group binary operation.

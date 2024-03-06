@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID: 92e8eb74-fedc-4920-ad97-97b06201a693
+:END:
+#+title: representation of group
+#+filetags: :representation-theory:definition:
+#+last_modified: [2023-05-10 Wed 14:59]
+#+setupfile: ~/Documents/org/latex_template.org
+
+A representation of a group is a homomorphism \( \rho : G \to \operatorname{GL}(V) \) for some vector space \( V \).
+Oftentimes \( V \) is taken to be finite dimensional.
+A representation of a group roughly assigns a linearized group action on the vector space.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9069d6e9-04ea-4ea2-98b6-33b415d7f714
+:ROAM_REFS: cite:etingofIsocategoricalGroups2000
+:END:
+#+title: Etingof, P., & Gelaki, S.: Isocategorical Groups
+#+filetags: :reference:
+#+last_modified: [2023-09-24 Sun 18:43]
+#+setupfile: ~/Documents/org/latex_template.org

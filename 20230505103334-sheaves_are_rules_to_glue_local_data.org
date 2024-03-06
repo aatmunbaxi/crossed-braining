@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d1387254-6252-474a-a117-f1cd1db28bd5
+:END:
+#+title: sheaves are rules to glue local data
+#+filetags: :sheaves:
+#+last_modified: [2023-05-05 Fri 10:33]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+[[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaves]] are tools that give a systematic and repeatable set of rules with which we can "glue" local data into global data.
+The underlying [[id:179710fe-efb8-48ac-ab8c-3fc9f48f479f][presheaf]] of a sheaf is the assignment of local data (in whichever category it takes values in) to each open set of the space.
+The extra conditions to make it a sheaf are the 'rules'.
+Sheaf-ness is a *property* of an assignment of local data, and *not* a structure.

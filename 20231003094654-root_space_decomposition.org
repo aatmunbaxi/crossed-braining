@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       7bf6923f-4334-4ecc-9748-3483b88044e0
+:END:
+#+title: root space decomposition
+#+filetags: :definition:
+#+last_modified: [2023-10-03 Tue 09:46]
+#+setupfile: ~/Documents/org/latex_template.org
+For a given maximal [[id:372cdf75-f5eb-4bdc-80d9-2e2e9b2e9e4f][toral subalgebra]] \(\mathfrak{h} \subset  \mathfrak{g} \), the restriction of the [[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]] \( \operatorname{ad}|_{ \mathfrak{h} } : \mathfrak{h} \rightarrow \operatorname{End}( \mathfrak{g} )   \) has image that is simultaneously diagonalized by a basis \(x_{1} , \ldots , x_{n} \).
+Let \( \mathfrak{g} _{\alpha} = \left\{ x\in \mathfrak{g}  \mid [hx] = \alpha(h)x \right\} \) where \( \alpha(-) \) is an eigenvalue depending on \( h\in \mathfrak{g}  \) (read: an element of \( \mathfrak{h} ^{*} \)).
+The collection of nonzero \( \alpha \) such that \( \mathfrak{g} _{\alpha}\neq 0 \) is called a collections of *roots* \( \Phi \).
+The root spaces are the \( \mathfrak{g} _{\alpha}\neq 0 \).
+
+The  *root space decomposition* is the decomposition
+\begin{equation}
+\label{eq:1}
+\mathfrak{g}  = C_{\mathfrak{g} } (\mathfrak{h} ) \oplus  \bigoplus_{\alpha\in \Phi}^{} \mathfrak{g} _{\alpha}.
+\end{equation}
+
+Since \( \mathfrak{h}  \) is maximal, \( \mathfrak{g} _0= C_{\mathfrak{g} }(\mathfrak{h} ) = \mathfrak{h}  \).
+
+* Properties
+- \( [\mathfrak{g} _{\alpha} , \mathfrak{g} _{\beta}] \subset \mathfrak{g} _{\alpha+\beta}\)
+- for \( x\in \mathfrak{g} _{\alpha} \) where \( \alpha\neq 0 \), \( \operatorname{ad}(x) \) is nilpotent
+- for \( \alpha+\beta\neq 0 \), \( \kappa(\mathfrak{g} _{\alpha}, \mathfrak{g} _{\beta})=0 \).

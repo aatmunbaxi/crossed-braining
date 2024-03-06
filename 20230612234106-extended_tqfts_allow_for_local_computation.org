@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7b2cb8d2-b8e0-4e86-b41f-5b2049bd09ad
+:END:
+#+title: extended TQFTs allow for local computation
+#+last_modified: [2023-06-12 Mon 23:41]
+#+setupfile: ~/Documents/org/latex_template.org
+One advantage of the [[id:dbdab25c-644a-4c8b-8ad0-cda00143dbf7][Atiyah-Segal]] definition of TQFT is that they are simple and slick to define.
+Unfortunately, the only information afforded is in codimension \( 1 \), since the \( (d-1) \)-manifolds at the end of the cobordism are without boundary.
+
+The notion of [[id:da243947-bb13-4aad-962d-5557898c7338][fully extended TQFTs]], making use of [[id:1c9d6cc8-8ba2-4c57-9b71-e9a97ffd7146][extended cobordisms]] allow one to cut along arbitrary manifolds and glean information at this level.
+This makes computation of local data possible.

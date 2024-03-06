@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       30fd7d0e-8047-41f2-b3f5-afb34e2348af
+:END:
+#+title: pauli exclusion principle
+#+filetags: :quantum-mechanics:particle-physics:physics:definition:
+#+last_modified: [2023-05-24 Wed 15:12]
+#+setupfile: ~/Documents/org/latex_template.org
+The Pauli exclusion principle roughly states that two or more identical [[id:737d21d5-5774-46d0-8415-00dac1c3cad6][fermion]]s cannot occupy the same quantum state simultaneously.
+Rigorously, if \( \Psi \) is a wave function, and \( x,y \) are two identical fermions (same spin), then \( \Psi(x,y) = - \Psi(y,x) \).

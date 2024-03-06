@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID: 69730f1d-4ef7-4c48-aaa3-f740bdadc06e
+:END:
+#+title: properties of Lie algebra ideals
+#+filetags: :lie-algebras:
+#+last_modified: [2023-08-29 Tue 10:00]
+#+setupfile: ~/Documents/org/latex_template.org
+
+Given ideals \( I,J \subset \mathfrak{g}  \) of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]]s, the things you'd hope to be true are true:
+- \( [ I,J] \subset \mathfrak{g}  \) is an ideal of \( \mathfrak{g}  \)
+  - This is a result of the Jacobi identity
+- \( I + J \) is an ideal of \( \mathfrak{g}  \)
+- \( I \cap J  \) is an ideal

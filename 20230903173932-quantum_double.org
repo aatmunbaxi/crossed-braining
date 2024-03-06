@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       de50dea6-2737-45b4-a8e2-39e479045c4a
+:END:
+#+title: quantum double
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 17:39]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a group \( G \), form the [[id:0273392f-6ba4-44aa-912f-ff0d5221ae3a][group algebra]] over a field \( k \), and consider the algebra \( DG = (kG)^{*} \otimes kG \).
+Such an algebra is called the *(quantum) double* of the group.
+
+One can twist this construction by a 3-cocycle \( \omega : G^3 \to k^{\times }\).
+See [[id:ee2c65fa-a457-4c49-9023-d2405d09dd21][group cohomology]].

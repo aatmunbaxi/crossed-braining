@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6c3ae2f3-eced-4370-9225-68a057923203
+:END:
+#+title: modular data does not determine the MTC
+#+last_modified: [2023-09-16 Sat 15:07]
+#+setupfile: ~/Documents/org/latex_template.org
+Given modular data--the \( S \)-matrix and all values of the [[id:02790fa5-0095-4320-b7c8-225f269fb335][twist]] \( \theta_X \)--one *cannot* uniquely reconstruct a [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][MTC]].
+In other words, nonequivalent anyon systems may admit the same modular data.
+
+Though this is a disappointing fact, modular data is still the most useful invariant of MTCs, since classifying modular data is computationally tractable problem.
+This would only classify MTCs up to /modular isotopes/, however.
+
+See [[id:3376ee61-d136-4d0f-97cb-d054a6e5da9a][modular categories model nontrivially interacting anyon systems in TPMs]] and [[id:a3dc7f4a-7d4b-4f1a-8aa2-69863886747a][Mignard, M., & Schauenburg, P.: Modular categories are not determined by their modular data]].

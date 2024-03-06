@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       872a86ea-69d4-4056-a632-e61ff242906f
+:END:
+#+title: unitary category
+#+filetags: :definition:
+#+last_modified: [2023-09-29 Fri 14:50]
+#+setupfile: ~/Documents/org/latex_template.org
+A *unitary category* is an abelian, \( k \)-linear category with

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bf28ac60-b810-46e2-8716-5aae6737b51d
+:END:
+#+title: modularity corresponds to conservation laws of anyons
+#+filetags: :fleeting:
+#+last_modified: [2023-09-28 Thu 15:45]
+#+setupfile: ~/Documents/org/latex_template.org
+In the analogy that [[id:3376ee61-d136-4d0f-97cb-d054a6e5da9a][modular categories model nontrivially interacting anyon systems in TPMs]], the nondegeneracy conditions of the [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braiding]] are given by the topological nature of any decent conservation law.

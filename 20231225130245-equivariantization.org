@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       128555df-5a84-4140-94a5-4929c58c86ed
+:END:
+#+title: equivariantization
+#+filetags: :fleeting:
+#+created: [2023-12-25 Mon 13:02]
+#+setupfile: ~/Documents/org/latex_template.org
+Passing from a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] equipped with a [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-action]] to its [[id:2b4a1083-f8ed-4e15-82f4-2e00c307661d][G-fixed subcategory]] \( \mathcal{C} \to \mathcal{C}^G \) is called *equivariantization*.

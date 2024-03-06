@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       2b4a1083-f8ed-4e15-82f4-2e00c307661d
+:END:
+#+title: G-fixed subcategory
+#+filetags: :fleeting:
+#+created: [2023-12-25 Mon 12:55]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-action]] \( \beta \) on a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] \( \mathcal{C} \), we define the \( G \)-fixed subcategory of \( \mathcal{C} \) to be \( \mathcal{C}^G \), whose objects are pairs \( (X, \left\{ u_g \right\}_{g\in G})\)  where \( u_g \) are isomorphisms \( u_g : g\cdot X \to X \) such that the diagram
+\begin{center}
+\begin{tikzcd}[ampersand replacement=\&]
+	{(gh)\cdot X} \&\& {g\cdot(u_{h})} \\
+	\\
+	X \&\& {h\cdot X}
+	\arrow["{u_h}"', tail reversed, no head, from=3-1, to=3-3]
+	\arrow["{g\cdot(h\cdot X)}", from=1-3, to=3-3]
+	\arrow["{\delta_{g,h,X}}", from=1-1, to=1-3]
+	\arrow["{u_{gh}}"', from=1-1, to=3-1]
+\end{tikzcd}
+\end{center}
+commutes for all \( g,h\in G \).
+And the morphisms \( (X,u) \to (Y,w) \) are \( G \)-equivariant morphisms with respect to the \( u_g, w_g \) for all \( g\in G \).

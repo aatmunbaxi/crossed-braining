@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       c0f30cb2-3dcf-4185-aa21-9b3cb8b63acb
+:END:
+#+title: Verlinde formula
+#+created: [2024-03-06 Wed 10:54]
+#+setupfile: ~/Documents/org/latex_template.org
+
+In a [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular category]], the [[id:8079f2ac-766f-4f10-b476-c11379b5f64e][fusion rules]] can be computed with the *Verlinde formula*:
+
+\begin{equation}
+N_{i,j}^k = \sum_t^{}  \frac{S_{i,t} S_{j,t} S_{k^{*} ,t}}{D^2 S_{0,t}}
+\end{equation}

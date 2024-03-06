@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       fd998f12-5b30-436a-a8db-3db2a8902d52
+:END:
+#+title: Clifford algebra
+#+filetags: :algebra:definition:
+#+last_modified: [2023-05-24 Wed 14:58]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a vector space \( V \) over a field \( k \), with [[id:9767c2b8-23a6-47f1-a3de-ab1c65690629][quadratic form]] \( Q :V \to k \), the /Clifford algebra/ of \( (V,Q) \) is defined as
+\begin{equation}
+\label{eq:1}
+\left( \bigoplus_{n \geqslant 0}^{} V^{\otimes n}  \right) / \langle  v \otimes v - Q(v)1 \rangle
+\end{equation}
+Sometimes, the /Clifford algebra of \( V \)/ is said, which is just the Clifford algebra of \( (V, \|.\|) \).
+
+Multiplication of the algebra is defined by the identity
+\begin{equation}
+\label{eq:2}
+uv + vu = \left\langle u,v \right\rangle
+\end{equation}
+where \( \left\langle -,- \right\rangle \) is the symmetric bilinear form of the quadratic form (see [[id:9767c2b8-23a6-47f1-a3de-ab1c65690629][quadratic form]]).

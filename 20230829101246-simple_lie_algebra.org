@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       24075658-eb53-4eed-ab50-25dc277d5bd6
+:END:
+#+title: simple Lie algebra
+#+filetags: :lie-algebras:definition:
+#+last_modified: [2023-08-29 Tue 10:12]
+#+setupfile: ~/Documents/org/latex_template.org
+A [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] is /simple/ if it is not abelian and has no nontrivial ideals.
+
+Note that \( [LL] \) being an ideal implies immediately that \( [LL]=L \) when \( L \) is simple.
+
+- Since \( \ker \operatorname{ad} = Z( \mathfrak{g} ) \), and the center is an ideal, \( \operatorname{ad} \) the [[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]] is injective. See also [[id:aef05226-eb56-4a0e-bce6-e776316a6d97][every simple Lie algebra is isomorphic to a linear Lie algebra]]

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       51b03339-c64b-4b52-b9b2-f700bc9eb9be
+:ROAM_REFS: cite:etingofFusionCategories2017b
+:END:
+#+title: Etingof, P., Nikshych, D., & Ostrik, V.: On Fusion Categories
+#+filetags: :reference:
+#+created: [2023-10-18 Wed 08:10]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes :ATTACH:
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Etingof et al_2017_On fusion categories.pdf
+:NOTER_PAGE: 4
+:END:
+** squared norm definition
+:PROPERTIES:
+:NOTER_PAGE: (4 0.5792690711462452 . 0.729342)
+:END:
+
+- [[id:a71b6e8b-3a1b-4a63-b14a-6eee24dbdd21][squared norm]]
+** dimension
+:PROPERTIES:
+:NOTER_PAGE: (4 0.6389582675222112 . 0.7179157500000001)
+:END:
+
+- [[id:760a49ff-234e-41d7-911f-7e3c0581f7fb][dimension]]
+** pivotal category
+:PROPERTIES:
+:NOTER_PAGE: (5 0.3581891658440276 . 0.7179157500000001)
+:END:
+- [[id:97d0ff5f-0354-478e-9551-71752410b2c5][pivotal category]]
+** spherical category
+:PROPERTIES:
+:NOTER_PAGE: (5 0.6991230750246792 . 0.7179157500000001)
+:END:
+- [[id:6acfbcac-8a7b-465e-825d-5640299d8681][spherical category]]

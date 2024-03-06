@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9d0316e3-e2c5-46fe-be12-83e35ac61fc3
+:END:
+#+title: string theory and fermions
+#+filetags: :physics:particle-physics:quantum-mechanics:string-theory:
+#+last_modified: [2023-05-24 Wed 15:04]
+#+setupfile: ~/Documents/org/latex_template.org
+Bosonic string theory, with the Nambu-Goto action on worldsheets, does not predict the existence of fermions.
+To predict the fermionic string, we need a dual notion of the NG action, given on [[id:9ea86d6a-457b-4841-aa79-266206c71e2f][spinor]] fields.
+
+Recall that spinors are elements of a representation of a [[id:fd998f12-5b30-436a-a8db-3db2a8902d52][Clifford algebra]], which [[id:515d597f-2549-483c-80c0-aaa8bd65630f][are quantizations of exterior algebras]].
+This is similar to the notion of the [[id:30fd7d0e-8047-41f2-b3f5-afb34e2348af][Pauli exclusion principle]] of [[id:737d21d5-5774-46d0-8415-00dac1c3cad6][fermions]].
+The exterior algebra is antisymmetric, much like identical fermions swap the sign of wave functions.

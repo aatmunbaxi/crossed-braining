@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       59cc4766-c370-4c41-8541-d40d1c09c13d
+:END:
+#+title: fusion category
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 17:43]
+#+setupfile: ~/Documents/org/latex_template.org
+A *fusion category* is an abelian, rigid, semisimple, \( k \)-linear [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] with finitely many simple objects such that \( \mathbf{1} \) is a simple object.
+
+* Examples
+- [[id:92e8eb74-fedc-4920-ad97-97b06201a693][Finite dimensional representations of a group]] or [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][Lie algebra]] or [[id:ca8cf6a8-55d1-4c2f-816e-dcb04c073682][Hopf algebra]]
+- The category of \( G \)-graded vector spaces (these classify pointed [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]] fusion categories via pre-metric groups)

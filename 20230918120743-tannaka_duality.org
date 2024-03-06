@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c6d01322-4337-4cff-b5ce-9f46a301f4c7
+:END:
+#+title: Tannaka duality
+#+last_modified: [2023-09-18 Mon 12:07]
+#+setupfile: ~/Documents/org/latex_template.org
+*Tannaka duality* is a theorem that allows us to reconstruct a finite group from its category of [[id:92e8eb74-fedc-4920-ad97-97b06201a693][representations]] considered as a symmetric [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]].
+
+Tannaka duality implies that a classification of all [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]] will contain within it a classification of all finite groups.

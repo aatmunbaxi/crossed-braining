@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       1fb85d92-0eaa-4e14-a45c-20c6696b76ac
+:ROAM_REFS: cite:etingofTensorCategories2016
+:END:
+#+title: Etingof, P., Gelaki, S., Nikshych, D., & Ostrik, V.: Tensor Categories
+#+filetags: :reference:
+#+created: [2023-11-13 Mon 08:38]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes :ATTACH:
+:PROPERTIES:
+:NOTER_DOCUMENT: ../.attach/1f/b85d92-0eaa-4e14-a45c-20c6696b76ac/Etingof et al. - 2015 - Tensor categories.pdf
+:NOTER_PAGE: 271
+:END:
+** braided G-crossed fusion category
+:PROPERTIES:
+:NOTER_PAGE: (270 0.7285450829831933 . 0.4530986806282723)
+:END:
+
+A [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][braided G-crossed fusion category]] is a [[id:4e58988f-1008-4772-973d-6cde1fcc8822][graded category]] with a [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-action on category]] such that \( g \cdot \mathcal{C}_h \subset \mathcal{C}_{g h g ^{-1}} \) and [[id:c0826e1f-59a0-4a82-adbf-d295d2eee9b8][G-crossed braiding]] with certain compatibilities.

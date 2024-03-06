@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       6210ca24-5d50-4752-8834-9b9a6c82e24b
+:END:
+#+title: sheaf
+#+filetags: :definition:differential-geometry:category-theory:algebraic-geometry:draft:
+#+last_modified: [2023-04-20 Thu 16:47]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+* Definition
+A sheaf \( \mathcal{F}  \) on a space \( X \) is a [[id:179710fe-efb8-48ac-ab8c-3fc9f48f479f][presheaf]] that satisfies the extra coherence condition that on an open cover \( \left\{ U_i \right\} \), the diagram
+\begin{equation}
+F(U) \to \prod_{i}^{} F(U_i) \rightrightarrows \prod_{i,j}^{} F(U_i\cap U_j)
+\end{equation}
+is a equalizer.
+
+Intuitively, [[id:d1387254-6252-474a-a117-f1cd1db28bd5][sheaves are rules to glue local data]] into global data.
++ They are NOT determined by their stalks in general
++ Sheaf morphisms satisfy coherence with the restrictions
+  + Kernels of morphisms are sheaves, but images and quotients are not in general, you need the [[id:2c6d0c7f-7800-4dac-a3b4-a3581897f0b1][sheafification]] for this
+** Examples
+- The structure sheaf on a [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][variety]]  \( X \) takes open sets \( U \mapsto \mathcal{O}(U) \) where \( \mathcal{O}(U) \) consists of fractions \( a/b \) with \( b(x)\neq 0 \) on \( U \)
+- The constant sheaf takes every open set to some chosen set
+  - This one seems silly but is actually important, the de Rham cohomology of a manifold is the [[id:e0644a26-887c-411c-b1e3-32fa53f73502][Cech cohomology]] of the constant sheaf \( \underline{\mathbf{R}} \to M \)

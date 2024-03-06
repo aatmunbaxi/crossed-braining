@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d52a854a-0439-45d7-b374-4255077781b5
+:END:
+#+title: gauging data
+#+created: [2024-03-06 Wed 11:55]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a [[id:c9d350dc-5c46-4fd9-921e-c525f684a70b][symmetry of UMC]] \( \rho : G \rightarrow \operatorname{Aut}^{\mathrm{br}}_{\otimes }(\mathcal{B}) \) that can be gauged, a *gauging data* is a pair \( (\alpha,\beta)\in H^2(G, \operatorname{Inv}(\mathcal{B})) \times H^3(G, U(1)) \) such that the fourth cohomology obstruction vanishes.
+
+See [[id:b74f654e-a164-488d-9f5c-ffcdcb7a6678][Cui, S. X., Galindo, C., Plavnik, J. Y., & Wang, Z.: On Gauging Symmetry of Modular Categories]] for details.

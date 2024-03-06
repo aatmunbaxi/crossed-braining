@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0adf10d9-1ea5-4db2-a8bb-6641fab04ea3
+:END:
+#+title: modular category
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 17:38]
+#+setupfile: ~/Documents/org/latex_template.org
+A *modular category* is a [[id:02790fa5-0095-4320-b7c8-225f269fb335][ribbon]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] with nondegenerate \( S \)-matrix \( S_{XY} = \operatorname{Tr}(c_{Y,X}c_{X,Y}) \).
+
+Here \( \operatorname{Tr} \) is the [[id:86239a40-ee69-4ffd-bf07-296c74dff52b][categorical/quantum trace]].
+
+The \( S \)-matrix has entries
+
+[[file:figures/trace_of_double_braiding.svg][trace of double braiding]]
+
+See also: [[id:6df43694-0646-474e-a3ba-0d1280fc775a][Brugieres' condition for modularity]]

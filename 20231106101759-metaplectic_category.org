@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       98a0806b-8662-42b7-8f62-6ab23b1cfbde
+:END:
+#+title: metaplectic category
+#+filetags: :definition:
+#+created: [2023-11-06 Mon 10:17]
+#+setupfile: ~/Documents/org/latex_template.org
+A *metaplectic category* is a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] with [[id:78f1307e-2b02-4ce9-a696-815d8899577b][fusion rules]] equivalent to that of \( \operatorname{SO}(N)_2 \).
+Here \( \operatorname{SO}(N)_2 = \mathcal{C}( \mathfrak{so}(n) , q ) \) where \( q = e^{\pi i / N} \) if \( N \) is even and \( q = e^{\pi i/2N} \) if \( N \) is odd.
+
+See [[id:328a3191-0548-45b3-b605-da22107c16dd][quantum group]].

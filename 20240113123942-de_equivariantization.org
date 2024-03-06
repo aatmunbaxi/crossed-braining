@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       f14dac8e-d95e-4a98-8a05-fa0b9c0ee215
+:END:
+#+title: de-equivariantization
+#+filetags: :definition:
+#+created: [2024-01-13 Sat 12:39]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( G \) be a finite group and \( \mathcal{D} \) be a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]].
+Suppose there's a [[id:7cf7a7c0-793d-4e4b-859b-df3a9a0d10d7][braided monoidal functor]] \( \operatorname{Rep}_k G \to \mathcal{Z}( \mathcal{D} ) \) such that the forgetful composition \( \operatorname{Rep}_k G \to \mathcal{Z}( \mathcal{D} ) \to \mathcal{D} \) is fully faithful.
+Then there's a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] \( \mathcal{C} \) and [[id:701a4e2f-0726-453e-a293-e14c373f94ea][action]] of \( G \) on \( \mathcal{C} \) such that \( \mathcal{D} \cong \mathcal{C}^G \) as [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]].
+
+(MAYBE only happens when \( \mathcal{D} \) is braided to begin with?)
+
+See: [[id:fac30514-13d4-426b-ac68-786311312d11][construction of de-equivariantization]]
+
+* Remarks
+- The condition that the forgetful decomposition is fully faithful is a weakening of the condition where a copy of \( \operatorname{Rep}_k G \) sits inside the [[id:804c0654-5e27-497c-baa5-bda651ab009b][center]] of \( \mathcal{D} \).
+- This process is the reverse of [[id:128555df-5a84-4140-94a5-4929c58c86ed][equivariantization]].

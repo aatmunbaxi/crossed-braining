@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       36a995bf-51f6-4e2d-8ea6-039a59499c51
+:END:
+#+title: the classification of supermodular categories
+#+filetags: :fleeting:
+#+last_modified: [2023-09-30 Sat 17:44]
+#+setupfile: ~/Documents/org/latex_template.org
+As a superset of [[id:6615c975-8230-4abf-b165-7ae78b09b584][the classification of modular categories]], the classification of [[id:61a554cf-5744-4b80-8233-593127c743db][super-modular categories]] has been carried out for low rank.
+The paper [[id:4b6ce232-2eca-43b6-a994-747f7f20a706][Bruillard et al: Classification of Super-Modular Categories by Rank]] and [[id:3e332db7-f7d2-4d6a-98b7-19492f5eeaea][Bruillard et al: Classification of super-modular categories]] develop tools to carry out the classification.
+
+The former classifies supermodular categories up to rank 6, and [[id:7c4e5281-adbd-452e-a321-959b29a67733][spin modular categories]] up to rank 11.

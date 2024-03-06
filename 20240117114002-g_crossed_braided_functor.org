@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       abefa75a-70ca-440a-b56e-6a59dc0ec914
+:END:
+#+title: G-crossed braided functor
+#+filetags: :definition:
+#+created: [2024-01-17 Wed 11:40]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( (T^{\mathcal{C}},  \gamma^{\mathcal{C}} , c^{\mathcal{C}}), (T^{\mathcal{D}},  \gamma^{\mathcal{D}} , c^{\mathcal{D}}) \) be [[id:701a4e2f-0726-453e-a293-e14c373f94ea][G-actions]], compositors, and [[id:c0826e1f-59a0-4a82-adbf-d295d2eee9b8][crossed braidings]] respectively for [[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braided categories]].
+A triple \( (F,J, \eta) : \mathcal{C} \to \mathcal{D} \) is a *G-crossed braided functor* if \( (F,J) \) is a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal functor]] and \( \eta_g : T_{g}^{\mathcal{D}}\circ F \to F\circ T^{\mathcal{C}} _g \) is a family of monoidal natural isomorphisms for all \( g \) with \( \eta_e = \operatorname{id}_F \) such that
+- \( F( \mathcal{C}_g ) \subset \mathcal{D}_g \)
+- \( F((\gamma^{\mathcal{C}} _{g,h})_X) \circ (\eta_{gh})_X = (\eta_h)_{X^g}\circ ((\eta_g)_X)^h  \circ (\gamma_{g,h}^{\mathcal{D}})_{F(X)}\), and
+- (\( J \)-function trouble) \( J_{Y,X^h} \circ F(c_{X,Y}^{\mathcal{C}}) = (\operatorname{id}_{F(Y)} \otimes (\eta_h)_X)\circ c_{F(X), F(Y)}^{\mathcal{D}} \circ J_{X,Y} \)
+
+  for all \( X \in \mathcal{C} , Y \in \mathcal{C}_h \).

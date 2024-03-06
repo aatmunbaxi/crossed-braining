@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       6615c975-8230-4abf-b165-7ae78b09b584
+:END:
+#+title: the classification of modular categories
+#+filetags: :fleeting:
+#+last_modified: [2023-09-30 Sat 17:44]
+#+setupfile: ~/Documents/org/latex_template.org
+Effort has been made to classify [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular categories]].
+It is unfortunate that [[id:6c3ae2f3-eced-4370-9225-68a057923203][modular data does not determine the MTC]], but [[id:802d47b5-e97d-4303-94cd-8a90041a430c][Bruillard: Rank-finiteness for modular categories]] proves that there are finitely many modular categories for a given rank.
+The proof is via some kind of Galois symmetry.
+Though the task is difficult, it is expected to be possible, as opposed to the classification of [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]].
+
+We know that most modular categories arise as representation categories of [[id:328a3191-0548-45b3-b605-da22107c16dd][quantum groups]] and [[id:de50dea6-2737-45b4-a8e2-39e479045c4a][quantum doubles]] of finite groups.
+See e.g. [[id:f70d153d-0378-4e28-9275-66d0dba27541][Rowell, E. C.: From Quantum Groups to Unitary Modular Tensor Categories]].

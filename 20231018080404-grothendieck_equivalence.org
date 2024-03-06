@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       82582286-249a-4d10-858e-6a3a875aaacb
+:END:
+#+title: Grothendieck equivalence
+#+filetags: :fleeting:
+#+created: [2023-10-18 Wed 08:04]
+#+setupfile: ~/Documents/org/latex_template.org
+Two [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]] are *Grothendieck equivalent* if there is a bijection on sets of simple objects that induces an isomorphism of their [[id:78f1307e-2b02-4ce9-a696-815d8899577b][fusion (Grothendieck) rings]].

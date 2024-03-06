@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       243f352a-3157-478a-8ce7-7aea2343332f
+:END:
+#+title: Cartan subalgebra
+#+filetags: :definition:
+#+last_modified: [2023-05-27 Sat 21:26]
+#+setupfile: ~/Documents/org/latex_template.org
+A *Cartan subalgebra* of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( L \) is a [[id:a071ca4e-e692-4487-855f-5dc3c6bf8190][nilpotent]] subalgebra which equals its [[id:693f018d-e761-4044-b7c3-565d3556abae][normalizer]].

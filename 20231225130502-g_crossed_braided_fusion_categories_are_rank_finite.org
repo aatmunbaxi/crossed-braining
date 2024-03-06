@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       41934b3f-5219-4b1a-8846-9637c5dec090
+:END:
+#+title: G-crossed braided fusion categories are rank-finite
+#+filetags: :fleeting:
+#+created: [2023-12-25 Mon 13:05]
+#+setupfile: ~/Documents/org/latex_template.org
+[[id:54106a90-401a-4ec5-a6e4-c4d395c42c08][G-crossed braided]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]] are rank-finite.
+See [[cite:&jonesRankfinitenessGcrossedBraided2019]].

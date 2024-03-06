@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6df43694-0646-474e-a3ba-0d1280fc775a
+:END:
+#+title: Brugieres' condition for modularity
+#+last_modified: [2023-09-15 Fri 12:49]
+#+setupfile: ~/Documents/org/latex_template.org
+Brugieres showed that a [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided]] [[id:02790fa5-0095-4320-b7c8-225f269fb335][ribbon]] [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] is [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular]] if and only if the only transparent object is the [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal unit]] \( \mathbf{1} \).
+An object \( X \) is *transparent* if \( c_{X,Y} \circ c_{Y,X} = \operatorname{id} \) for every other object \( Y \).
+The nonunital simple objects that are not transparent are called the *obstructions to modularity*.
+
+This statement is physically obvious once remember that the \( S \)-matrix of a ribbon category encodes the data of interaction between anyon quasiparticles.
+See: [[id:3376ee61-d136-4d0f-97cb-d054a6e5da9a][modular categories model anyon systems in TPMs]]

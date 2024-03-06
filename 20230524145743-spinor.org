@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9ea86d6a-457b-4841-aa79-266206c71e2f
+:END:
+#+title: spinor
+#+filetags: :definition:
+#+last_modified: [2023-05-24 Wed 14:57]
+#+setupfile: ~/Documents/org/latex_template.org
+A spinor is an element of the [[id:ca9e081c-aae2-46c8-a29a-dafbf17103f4][fundamental representation]] representation of a [[id:fd998f12-5b30-436a-a8db-3db2a8902d52][Clifford algebra]]

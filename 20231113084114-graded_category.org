@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4e58988f-1008-4772-973d-6cde1fcc8822
+:END:
+#+title: graded monoidal category
+#+filetags: :definition:
+#+created: [2023-11-13 Mon 08:41]
+#+setupfile: ~/Documents/org/latex_template.org
+
+Let \( G \) be a monoid. A *graded [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]]* is a monoidal category with decomposition
+\begin{equation}
+\label{eq:1}
+\mathcal{C} = \bigoplus_{g\in G}^{} \mathcal{C}_g
+\end{equation}
+such that the tensor product can be viewed as a map \( \mathcal{C}_g \times \mathcal{C}_h \subset \mathcal{C}_{gh} \).
+
+The grading is called *faithful* if \( \mathcal{C}_g\neq 0 \) for every \( g\in G \).
+
+We can also define a grading as a map \( \partial : \operatorname{Ob} \mathcal{C} \to G \) such that \( X \cong Y \) implies \( \partial X = \partial Y \) and \( \partial (X \otimes Y) = \partial X \partial Y \).

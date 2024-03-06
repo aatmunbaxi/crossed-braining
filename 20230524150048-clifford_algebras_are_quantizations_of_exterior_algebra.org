@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       515d597f-2549-483c-80c0-aaa8bd65630f
+:END:
+#+title: Clifford algebras are quantizations of exterior algebra
+#+filetags: :algebra:
+#+last_modified: [2023-05-24 Wed 15:00]
+#+setupfile: ~/Documents/org/latex_template.org
+The [[id:fd998f12-5b30-436a-a8db-3db2a8902d52][Clifford algebra]] can be though of as the [[id:b03e7804-1eba-4711-a2f2-99a4eba80037][quantization]] of the exterior algebra.
+More precisely if \( Q \) the [[id:9767c2b8-23a6-47f1-a3de-ab1c65690629][quadratic form]] is \( 0 \), then \( \operatorname{Cl}(V,Q) = \bigwedge_{}^{ } V \) as vector spaces.
+However, the Clifford multiplication is not the same as \( \wedge \).

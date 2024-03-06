@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bab72310-31d5-4f2d-9075-e5ca701df8e6
+:END:
+#+title: Weyl chamber
+#+filetags: :fleeting:
+#+created: [2023-10-31 Tue 09:52]
+#+setupfile: ~/Documents/org/latex_template.org
+For a given [[id:b23950d7-a56d-4745-aed3-ceb2f6e79c90][root system]] \( R \), a *Weyl chamber* is a connected component \( \mathbf{E} - \bigcup_{\alpha}^{} P_{\alpha} \) where \( P_{\alpha} \) is the plane spanned by the root \( \alpha \).

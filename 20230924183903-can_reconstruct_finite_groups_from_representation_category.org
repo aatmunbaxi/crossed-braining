@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6898a383-1615-4e9c-9c76-4903c4bdea62
+:END:
+#+title: can reconstruct finite groups from representation category
+#+last_modified: [2023-09-24 Sun 18:39]
+#+setupfile: ~/Documents/org/latex_template.org
+By [[id:c6d01322-4337-4cff-b5ce-9f46a301f4c7][Tannaka duality]], one can determine a finite group up to isomorphism by considering its [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][symmetric monoidal category]] of finite dimensional [[id:92e8eb74-fedc-4920-ad97-97b06201a693][representations]].
+
+Interestingly, when one drops the symmetric structure, the theorem is false.
+Groups whose representations produce the same monoidal category are called *isocategorical* and are studied in [[id:9069d6e9-04ea-4ea2-98b6-33b415d7f714][Isocategorical Groups]].

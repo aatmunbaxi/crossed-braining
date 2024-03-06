@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       02c29186-be62-4862-959b-041702dc176f
+:END:
+#+title: cech cohomology computes sheaf cohomology
+#+filetags: :algebraicgeometry:
+#+last_modified: [2023-05-05 Fri 12:50]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+In practice, [[id:252ba56b-1457-4d9d-abe0-3453b148aa43][sheaf cohomology]] is impossible compute via [[id:58a49504-b4d6-47bc-8261-066ff8373341][right derived functor]]s. We can approximate sheaf cohomology with [[id:e0644a26-887c-411c-b1e3-32fa53f73502][Cech cohomology]] with respect to a good enough cover. This will yield isomorphisms in degree \( 0,1 \), with maps in higher degrees that might not be isomorphisms.
+The theorem of Leray says that if the sheaf \( \mathcal{F} \) is acyclic (i.e. cohomology in \( p >0 \) vanishes on every finite intersection of the cover \( \mathcal{U} \)), then \( \overline{H}^p( \mathcal{U}, \mathcal{F} ) = H^p (X , \mathcal{F}) \).

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cc379ce1-769d-446e-aa3a-76fcd757416e
+:END:
+#+title: root base
+#+filetags: :fleeting:
+#+created: [2023-10-31 Tue 09:50]
+#+setupfile: ~/Documents/org/latex_template.org
+A subset \( \Delta \) of a [[id:b23950d7-a56d-4745-aed3-ceb2f6e79c90][root system]] \( R \) is called a *base* if
+- \( \Delta \) is a basis of \( R \)
+- each root has a unique representation \( \beta = \sum_{\alpha\in \Delta}^{} k_{\alpha} \alpha \) with integral coefficients *that are either all nonnegative or all nonpositive*.
+
+Root bases are constructed with respect to a particular [[id:bab72310-31d5-4f2d-9075-e5ca701df8e6][Weyl chamber]], in fact they are in 1-1 correspondence with Weyl chambers.

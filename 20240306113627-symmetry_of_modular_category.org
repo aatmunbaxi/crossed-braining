@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b8929d1b-c18c-40ab-a9b6-4c2165686927
+:END:
+#+title: symmetry of modular category
+#+created: [2024-03-06 Wed 11:36]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a group \( G \) and [[id:872a86ea-69d4-4056-a632-e61ff242906f][unitary]] [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular category]] \( \mathcal{B} \), a *global symmetry* of \( \mathcal{B} \) is a pair \( (G,\rho) \) where \( \rho  : G \rightarrow \operatorname{Aut}^{\mathrm{br}}_{\otimes } ( \mathcal{B} ) \) is a group homomorphism.
+
+Here, the target group is the group of [[id:7cf7a7c0-793d-4e4b-859b-df3a9a0d10d7][braided]] auto-equivalences of \( \mathcal{B} \).

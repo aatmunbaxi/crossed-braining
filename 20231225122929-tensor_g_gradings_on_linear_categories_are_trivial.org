@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       18268475-d1b8-4e96-9444-0580bba1aada
+:END:
+#+title: tensor G-gradings on linear categories are "trivial"
+#+filetags: :fleeting:
+#+created: [2023-12-25 Mon 12:29]
+#+setupfile: ~/Documents/org/latex_template.org
+In the definition of [[id:4e58988f-1008-4772-973d-6cde1fcc8822][graded fusion category]], one could try to define a \( G \)-grading on a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] as a [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal]] functor \( \partial : \mathcal{C} \to G \) where \( G \) is the discrete [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]] defined by a group \( G \).
+Namely, this would also grade the morphisms of \( \mathcal{C} \).
+
+However, in the case that \( \mathcal{C} \) is \( k \)-linear, the hom-sets \(\operatorname*{Hom}(X,Y)\) are never empty, and \( G \) has no morphisms between distinct objects, this would mean all morphisms of \( \mathcal{C} \) have trivial degree.

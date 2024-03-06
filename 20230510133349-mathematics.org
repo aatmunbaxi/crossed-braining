@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       6c596642-9516-4def-b591-77cae6dfde74
+:END:
+#+title: mathematics index
+#+filetags: :index:
+#+last_modified: [2023-05-10 Wed 13:33]
+#+setupfile: ~/Documents/org/latex_template.org
+Mathematics is the study of, well, math.
+Actually, it's the study of vector spaces and linear algebra, since that's the only thing we can do well.
+
+Some disciplines of math include:
+
+- [[id:17421dfd-2eb7-4815-89f9-c15bc2d82c87][algebraic geometry]]
+- [[id:c6cc947c-d6c9-49e3-8616-b23650fc70fa][category theory]]
+- [[id:32ef7b6a-2143-4b73-acf5-e2f2ee309e62][representation theory]]

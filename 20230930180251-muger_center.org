@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4f98425c-659c-4bf3-9a95-a6a47db477aa
+:END:
+#+title: Muger center
+#+filetags: :fleeting:
+#+last_modified: [2023-09-30 Sat 18:02]
+#+setupfile: ~/Documents/org/latex_template.org
+
+The *Muger center* of a [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braided category]] is the subcategory of objects \( X \) such that \( c_{X,Y} \circ c_{Y,X} = \operatorname{id}_{X \otimes Y} \) for all \( Y \).
+i.e. the Muger center is the subcategory of *transparent objects*.

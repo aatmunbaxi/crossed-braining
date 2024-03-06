@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       17ab92d0-e84a-474b-a5ef-a1898c9fe056
+:END:
+#+title: Lie Algebras Lecture 20
+#+filetags: :lecture:
+#+created: [2023-11-07 Tue 09:43]
+#+setupfile: ~/Documents/org/latex_template.org
+- the theory of [[id:f4d82647-012a-46ca-8de1-b707bba56f04][weights]] is just the theory of [[id:b23950d7-a56d-4745-aed3-ceb2f6e79c90][roots]] but abstracted to more general finite dimensional [[id:16c17c19-a3fd-42ff-8360-50dad4c722ae][representations of Lie algebra]] and not just the [[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]].
+  - The setup is the same with a maximal [[id:372cdf75-f5eb-4bdc-80d9-2e2e9b2e9e4f][toral subalgebra]] and taking the [[id:7bf6923f-4334-4ecc-9748-3483b88044e0][root space decomposition]] wrt this representation.
+
+- [[id:4a07083f-7f4f-4a44-b57f-c88c83cd113e][weight space decomposition]]

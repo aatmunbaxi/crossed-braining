@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5505cff6-4c69-48c0-9f20-cfd528dbf5b4
+:END:
+#+title: solvable Lie algebras
+#+filetags: :definition:
+#+last_modified: [2023-08-31 Thu 09:38]
+#+setupfile: ~/Documents/org/latex_template.org
+A [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] is *solvable* if the derived series stabilizes at \( 0 \) in finite length.
+
+The usual properties of solvability hold: namely subalgebras as solvable, homomorphic images are solvable, and if \( \mathfrak{a}  \subset \mathfrak{g}  \) is an ideal and is solvable, and \( \mathfrak{g}  / \mathfrak{a}  \) is solvable, then \( \mathfrak{g}  \) is solvable.
+
+See also [[id:3780e819-a680-4710-af49-bf1cb3dd1ec4][derived subalgebra measures lack of commutivity]]

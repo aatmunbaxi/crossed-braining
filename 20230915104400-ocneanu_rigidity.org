@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e1d6afec-6ccf-4696-acff-8e199d32124b
+:END:
+#+title: Ocneanu rigidity
+#+filetags: :definition:
+#+last_modified: [2023-09-15 Fri 10:44]
+#+setupfile: ~/Documents/org/latex_template.org
+*Ocneanu ridigity* says that there are finitely many monoidal equivalence classes ([[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal category]]) of [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion categories]] inducing a given [[id:78f1307e-2b02-4ce9-a696-815d8899577b][fusion ring]].
+
+This is a central result, since it lets us reconstruct fusion categories from /potentially/ simpler objects--fusion rings--and guarantees that there are finitely many inducing such fusion ring.

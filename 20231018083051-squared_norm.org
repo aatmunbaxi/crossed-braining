@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a71b6e8b-3a1b-4a63-b14a-6eee24dbdd21
+:END:
+#+title: squared norm
+#+filetags: :fleeting:
+#+created: [2023-10-18 Wed 08:30]
+#+setupfile: ~/Documents/org/latex_template.org
+The *squared norm* of a simple object in a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] is defined by \( |V|^2 = \operatorname{Tr}_V(a) \left[ \operatorname{Tr}_{V^{*}}((a ^{-1})^{*}) \right] \) for some isomorphism \( a : V \to V^{**} \).
+
+The value of the squared norm will not depend on the choice of \( a \) since \( a \) is uniquely determined up to scale.
+The squared norm in a [[id:97d0ff5f-0354-478e-9551-71752410b2c5][pivotal category]] can be taken with respect to the pivotal structure.

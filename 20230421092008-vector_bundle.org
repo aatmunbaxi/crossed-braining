@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4102524e-539b-4f3f-843b-639c1aaa5fcc
+:END:
+#+title: vector bundle
+#+filetags: :definition:topology:algebraic-geometry:differential-geometry:
+#+last_modified: [2023-04-21 Fri 09:20]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+Locally free sheaves on a topological space.
+Explicitly, a total space \( E \) and projection \( p : E \to X \) such that \( p ^{-1}(x) := E_x \) is a vector space of some dimension (called the /rank/ of the bundle).
+Also require that there is a triviailizing cover \( \left\{ U_i \right\} \) of \( X \) such that \( E_{U_i} \cong U_{i} \times k^n \).
+
+- [[id:393d2a88-d753-4dca-b2b7-fd5789af84e6][coherent sheaves generalize vector bundles]].
+- Rank 1 vector bundles (called "line bundles") on \( \mathbb{P}V \) correspond to linear equivalence classes of Cartier divisors

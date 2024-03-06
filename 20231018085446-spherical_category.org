@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6acfbcac-8a7b-465e-825d-5640299d8681
+:END:
+#+title: spherical category
+#+filetags: :definition:
+#+created: [2023-10-18 Wed 08:54]
+#+setupfile: ~/Documents/org/latex_template.org
+A [[id:97d0ff5f-0354-478e-9551-71752410b2c5][pivotal category]] is *spherical* if \( \dim (V) = \dim (V^{*}) \) with respect to the chose pivotal structure.

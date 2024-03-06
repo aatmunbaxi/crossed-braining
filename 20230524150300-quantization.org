@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       b03e7804-1eba-4711-a2f2-99a4eba80037
+:END:
+#+title: quantization
+#+last_modified: [2023-05-24 Wed 15:03]
+#+setupfile: ~/Documents/org/latex_template.org

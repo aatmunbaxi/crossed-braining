@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bba12faa-7b6f-4e73-b44a-29ac4a8a83f2
+:END:
+#+title: Cartan matrix
+#+filetags: :definition:
+#+last_modified: [2023-05-31 Wed 19:06]
+#+setupfile: ~/Documents/org/latex_template.org

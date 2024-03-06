@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ee62a9d4-e1b1-4bff-b633-0c501960d135
+:END:
+#+title: Frobenius-Perron dimension
+#+filetags: :definition:
+#+created: [2024-01-13 Sat 13:01]
+#+setupfile: ~/Documents/org/latex_template.org
+Given a simple object \( X \) if a multi[[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]], the *Frobenius-Perron dimension* of \( X \) is the maximal eigenvalue of the [[id:8079f2ac-766f-4f10-b476-c11379b5f64e][fusion matrix]] of left multiplication by \( X \).
+Fix an ordering \( X_1 , \ldots , X_{n} \) on the simple objects.
+The matrix of left multiplication by \( X \) as entries \( a_{ij} \) equal to the multiplicity of \( X_j \) in the expansion of \( X \otimes X_i \).
+
+The \( \operatorname{FPdim}(\mathcal{C}) \) of a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] is the sum of the square dimensions of the simple objects.

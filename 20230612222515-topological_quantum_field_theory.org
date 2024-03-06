@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID: dbdab25c-644a-4c8b-8ad0-cda00143dbf7
+:END:
+#+title: topological quantum field theory
+#+filetags: :category-theory:definition:
+#+last_modified: [2023-06-12 Mon 22:25]
+#+setupfile: ~/Documents/org/latex_template.org
+
+Let \( \mathsf{Bord}_d \) be the category whose objects are closed oriented \( (d-1) \)-manifolds and whose morphisms are oriented cobordisms \( \partial B \cong \overline{M}\sqcup N \).
+An \( n \)TQFT is a symmetric [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal]] [[id:f59ec7eb-a1bb-475f-89d1-3b7db9a51cd1][functor]] \( Z : \mathsf{Bord}_d \to \mathsf{Vec}(k) \), where \( k \) is a field.

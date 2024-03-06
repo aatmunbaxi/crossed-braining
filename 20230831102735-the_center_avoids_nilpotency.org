@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b553b652-ce0f-4c26-b5bb-0cc0ad1e555d
+:END:
+#+title: the center avoids nilpotency, but not trivially
+#+last_modified: [2023-08-31 Thu 10:27]
+#+setupfile: ~/Documents/org/latex_template.org
+It is a result that for a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( \mathfrak{g}  \), if \( \mathfrak{g}  / Z(\mathfrak{g} ) \) is nilpotent, then \( \mathfrak{g}  \) is.
+
+*However*, it cannot avoid nilpotency by triviality: if \( \mathfrak{g}  \) is nonzero and nilpotent, then \( Z(\mathfrak{g} )\neq 0 \).

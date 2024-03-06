@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       a3dc7f4a-7d4b-4f1a-8aa2-69863886747a
+:ROAM_REFS: cite:mignardModularCategoriesAre2021
+:END:
+#+title: Mignard, M., & Schauenburg, P.: Modular categories are not determined by their modular data
+#+filetags: :reference:
+#+last_modified: [2023-10-02 Mon 12:17]
+#+setupfile: ~/Documents/org/latex_template.org
+
+This sucks lol
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Mignard_Schauenburg_2021_Modular categories are not determined by their modular data.pdf
+:END:

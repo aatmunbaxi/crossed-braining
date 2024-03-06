@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       cfa8f5ec-998b-48dc-9644-f7f92dc2e603
+:ROAM_REFS: cite:humphreysIntroductionLieAlgebras1973
+:END:
+#+title: Humphreys, J. E.: Introduction to Lie Algebras and Representation Theory
+#+filetags: :reference:
+#+last_modified: [2023-09-29 Fri 14:02]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/books/Humphreys - 1973 - Introduction to Lie Algebras and Representation Th.pdf
+:NOTER_PAGE: 17
+:END:
+** general linear algebra
+:PROPERTIES:
+:NOTER_PAGE: (15 . 0.2870662815533981)
+:END:
+Recall that the matrix group \( \operatorname{End}(V) \) is the tangent space at the identity of the general linear group \( \operatorname{GL}(V) \).
+It is denoted \( \mathfrak{gl}(V) \), with the "multiplication" being the bracket \( [-,-] \) by composition.
+** adjoint endomorphism
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.4342470825242718)
+:END:
+
+The adjoint endomorphism for \( x\in L \) is defined by \( \operatorname{ad}x (y) = [yx] \).
+It is a derivation of \( L \) when \( L \) is viewed as an \( F \)-algebra.
+
+The *[[id:bb4fb805-cba4-465c-9b64-147d4fbe9416][adjoint representation]]* of \( x \) is the map \( x \to \operatorname{ad}x \).
+This map is precisely the differential of \( \operatorname{Ad}: G \to \operatorname{Aut}( \mathfrak{g}) \) when \( L \) is the Lie algebra associated to some Lie group \( G \).
+** Normalizer subalgebra
+:PROPERTIES:
+:NOTER_PAGE: (20 . 0.36659283268178267)
+:END:
+
+Largest subalgebra of a Lie algebra that contains a subalgebra \( K \) as an ideal.
+** nilpotent element
+:PROPERTIES:
+:NOTER_PAGE: (21 . 0.7709945242946709)
+:END:
+
+is one where some power of the adjoint \( \operatorname{ad}x  \) is the zero endomorphism.
+** exponential of nilpotent derivation
+:PROPERTIES:
+:NOTER_PAGE: (21 . 0.7885071222570533)
+:END:
+
+of nilpotent order \( k \)  derivation \( \delta \) is the power series
+\begin{align*}
+\label{eq:15}
+\exp \delta =\sum_{i=0}^{k-1}  \frac{1}{i!} \delta^{i}
+\end{align*}
+

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2e83cb0b-ec97-49b3-a12a-843d6446129a
+:ROAM_REFS: cite:dongStructureExamplesClassification2021
+:END:
+#+title: Dong, J., & Sun, H.: Structure, examples and classification for generalized near-group fusion categories
+#+filetags: :reference:
+#+created: [2024-01-24 Wed 12:34]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Dong_Sun_2021_Structure, examples and classification for generalized near-group fusion.pdf
+:END:

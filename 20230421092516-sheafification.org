@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       2c6d0c7f-7800-4dac-a3b4-a3581897f0b1
+:END:
+#+title: sheafification
+#+filetags: :definition:differential-geometry:algebraic-geometry:draft:
+#+last_modified: [2023-04-21 Fri 09:25]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+Given a [[id:179710fe-efb8-48ac-ab8c-3fc9f48f479f][presheaf]]  \( \mathcal{F} \), set \( \mathcal{F}'(U) \) to be elements such that, for every \( x\in U \), there is a neighborhood \( x\in W \subset U \) and element \( w\in \mathcal{F}(W) \) such that \( u_y = \rho^W_y(w) \) for all \( y\in W \).
+Here, \( u_y \in \mathcal{F}_y \).
+
+The sheafification of a presheaf is somewhat like the "sheaf hull" of a presheaf.
+We're delegating the job of local data to some possibly smaller subset of some locality to get enough sections and the proper gluing criteria.
+
+As you should expect, the sheafification of a presheaf is a [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaf]].
+
+
+- Though /ad hoc/, this definition is needed to define the image sheaf and quotient sheaf, as the quotient of sheaves and image of sheaf morphisms are not always sheaves.
+  The classical counterexample is as follows: let \( X = \mathbf{C}^{\times } \); consider the sequence
+
+\begin{equation}
+\label{eq:1}
+0 \to \underline{\mathbf{Z}} \to \mathcal{O}_X \to \mathcal{O}_X^{*} \to 0
+\end{equation}
+where the first map is \( \cdot 2\pi i \) and the second is exponentiation.
+This sequence is exact on every open set of \( X \), but not every function admits a global logarithm, so the image cannot glue.

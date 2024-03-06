@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       91868ada-bc42-474c-89a6-d34bfb3b6a62
+:END:
+#+title: 16 fold way conjecture
+#+last_modified: [2023-09-29 Fri 15:15]
+#+setupfile: ~/Documents/org/latex_template.org
+The *16 fold way conjecture* is a conjecture stating that every [[id:61a554cf-5744-4b80-8233-593127c743db][super-modular category]] admits exactly 16 [[id:0adf10d9-1ea5-4db2-a8bb-6641fab04ea3][modular]] extensions.
+It was proposed by Bruillard et al. in [[id:5a4e291d-fd95-4426-b279-4f26d5a345bf][Bruillard, P., Galindo, C., Hagge, T., Ng, S., Plavnik, J. Y., Rowell, E. C., & Wang, Z.: Fermionic Modular Categories and the 16-fold Way]].

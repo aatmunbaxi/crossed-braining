@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       c6cc947c-d6c9-49e3-8616-b23650fc70fa
+:END:
+#+title: category theory index
+#+filetags: :index:category-theory:
+#+last_modified: [2023-05-10 Wed 13:26]
+#+setupfile: ~/Documents/org/latex_template.org
+Introducted in the 40s, category theory is the study of categories, a kind of 'meta' algebraic structure that unifies a language with which many phenomena in mathematics occur.
+Among these phenomena is [[id:f59ec7eb-a1bb-475f-89d1-3b7db9a51cd1][functor]]iality.
+Roughly speaking, suppose you have two mathematical objects \( X,Y \) with a good notion of a "map" \( f: X \to Y \) between them.
+Also suppose that these objects have other (possibly different and different type of) objects \( F(X), F(Y) \) associated to them.
+Functoriality is when you have a map \( Ff : F(X) \to F(Y) \).
+This phenomena occurs all over math.
+#+begin_quote
+Any sufficiently good analogy is yearning to be a functor.
+
+---John Carlos Baez
+#+end_quote
+
+The study of categories for their own merits has application in math itself, physics, and even programming (see Haskell).
+Categories can be made more like familiar mathematical objects, like in the case of [[id:7fc90d0d-1696-4fcb-88b4-48007536481c][monoidal categories]].
+
+Overall, this discipline provides a highly flexible framework to unify and talk about phenomena in various areas of math, and has objects of study that are interesting in their own right.

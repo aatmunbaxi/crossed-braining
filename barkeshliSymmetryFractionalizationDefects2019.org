@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       af8a90ee-9c85-4482-b226-8de2864b3a04
+:ROAM_REFS: cite:barkeshliSymmetryFractionalizationDefects2019
+:END:
+#+title: Barkeshli, M., Bonderson, P., Cheng, M., & Wang, Z.: Symmetry Fractionalization, Defects, and Gauging of Topological Phases
+#+filetags: :reference:
+#+created: [2023-11-20 Mon 08:23]
+#+setupfile: ~/Documents/org/latex_template.org
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/Documents/bib/pdfs/Barkeshli et al_2019_Symmetry Fractionalization, Defects, and Gauging of Topological Phases.pdf
+:END:

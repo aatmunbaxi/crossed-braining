@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0273392f-6ba4-44aa-912f-ff0d5221ae3a
+:END:
+#+title: group algebra
+#+filetags: :definition:
+#+last_modified: [2023-09-03 Sun 12:21]
+#+setupfile: ~/Documents/org/latex_template.org
+Over a field \( k \), the *group algebra* associated to a group \( G \) is the collection of all formal \( k \)-linear combinations on basis \( G \), with the multiplication being the usual group multiplication.
+From associativity of \( G \), the resulting algebra is associative.

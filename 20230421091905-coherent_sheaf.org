@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       cae8c301-8a40-4b60-85ad-ba28ab4d5702
+:END:
+#+title: coherent sheaf
+#+filetags: :definition:algebraic-geometry:draft:
+#+last_modified: [2023-04-21 Fri 09:19]
+#+setupfile: /home/aatmun/Documents/org/latex_template.org
+
+* Definition
+A [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaf]] \( \mathcal{F} \) is coherent if locally it is a sheaf of finitely generated modules \( M = \Gamma(U, \mathcal{F}) \).
+
+- If \( \mathcal{F} \) is coherent on an affine [[id:436eeda5-0fcf-4741-b906-fcb50805de8d][scheme]], \( \mathcal{F} \) is globally a sheaf of modules (non-trivial to prove)
+- [[id:4102524e-539b-4f3f-843b-639c1aaa5fcc][vector bundle]]s are locally free and coherent (see [[id:393d2a88-d753-4dca-b2b7-fd5789af84e6][coherent sheaves generalize vector bundles]])
+- On projective [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][variety]] , coherent sheaves appear as cokernels of short exact sequences of vector bundles

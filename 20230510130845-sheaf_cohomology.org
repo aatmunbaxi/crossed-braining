@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6a9ffef1-d528-4fbc-a5af-da8af8cb51de
+:END:
+#+title: sheaf cohomology
+#+filetags: :sheaves:algebraic-geometry:definition:
+#+last_modified: [2023-05-10 Wed 13:08]
+#+setupfile: ~/Documents/org/latex_template.org
+Sheaf cohomology is the [[id:58a49504-b4d6-47bc-8261-066ff8373341][right derived functor]] of the [[id:f59ec7eb-a1bb-475f-89d1-3b7db9a51cd1][functor]] \( \mathcal{F} \to \mathcal{F}(X) \), where \( X \) is a space (e.g. [[id:4e5b708b-ee01-431f-a594-3c367a00d88d][variety]]) mapping between categories \( \mathsf{Sh}(X) \to \mathsf{Ab} \), where \( \mathsf{Sh}(X) \) is the category of [[id:6210ca24-5d50-4752-8834-9b9a6c82e24b][sheaves]] on \( X \).
+
+Computation via this definition is usually stupid, see [[id:02c29186-be62-4862-959b-041702dc176f][cech cohomology computes sheaf cohomology]].

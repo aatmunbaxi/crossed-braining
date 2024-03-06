@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3780e819-a680-4710-af49-bf1cb3dd1ec4
+:END:
+#+title: derived subalgebra measures lack of commutivity
+#+filetags: :representation-theory:
+#+last_modified: [2023-05-08 Mon 21:23]
+#+setupfile: ~/Documents/org/latex_template.org
+The *derived subalgebra* of a [[id:04c2e796-c1db-4e7b-8317-6409312fcba6][Lie algebra]] \( [LL] \) measures the lack of commutivity of the Lie bracket.
+It is evident that \( L \) is abelian if and only if \( [LL]=0 \).

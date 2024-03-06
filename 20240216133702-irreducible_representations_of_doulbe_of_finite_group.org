@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       8fbde2a6-efd2-4823-9ae8-1b88e519af13
+:END:
+#+title: irreducible representations of double of finite group
+#+created: [2024-02-16 Fri 13:37]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( G \) be a finite group and \( H \subset G \) be a subgroup.
+Let \( D(G) \) denote the [[id:de50dea6-2737-45b4-a8e2-39e479045c4a][double]] of the group \( G \).
+Denote \( D_G(H) \) by the orbit of \( H \) under the action of conjugation by \( G \).
+
+Theorem: The irreducible \( D_g(H) \)-modules are parameterized by \( (V,g) \) where \( g \) is a representative of an \( H \)-orbit on \( G \), and \( V \) is an irreducible \( k C_H(g) \)-module.
+
+Alternatively, define \(Q = \left\{ g h^{*} \mid gh=hg \right\}  \), then the irreducible representations of \( D(G) \) are parameterized by \( G \)-equivalence classes of \( Q \).
+
+As a result, if \( G \) is abelian, then \( |Q|  = |G| ^2 \), so the the [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]] of representations would have rank \( |G|^2 \).

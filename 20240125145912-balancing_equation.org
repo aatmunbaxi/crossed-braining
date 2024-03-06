@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f4fbabf4-5a0e-473b-908c-24133263f10d
+:END:
+#+title: balancing equation
+#+created: [2024-01-25 Thu 14:59]
+#+setupfile: ~/Documents/org/latex_template.org
+The *balancing equation* relates the [[id:4831a1ae-6098-4781-92af-d03c8e8dcf32][braiding]] of a [[id:02790fa5-0095-4320-b7c8-225f269fb335][ribbon category]] to the *twist* \( \theta \).
+That is the equation
+\begin{equation}
+\theta_{X \otimes Y} = (\theta_X \otimes \theta_Y ) \circ c_{Y,X} \circ c_{X,Y}
+\end{equation}

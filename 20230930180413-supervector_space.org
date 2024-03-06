@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       34aeffbd-9317-4b0d-b845-8b4db4b04670
+:END:
+#+title: supervector space
+#+filetags: :fleeting:
+#+last_modified: [2023-09-30 Sat 18:04]
+#+setupfile: ~/Documents/org/latex_template.org
+A *supervector space* is a vector space graded by \( \mathbf{Z}_2 \).
+The category of supervector spaces is a [[id:61a554cf-5744-4b80-8233-593127c743db][super-modular category]].

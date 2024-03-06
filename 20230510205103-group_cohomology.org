@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ee2c65fa-a457-4c49-9023-d2405d09dd21
+:END:
+#+title: group cohomology
+#+filetags: :group-theory:homology:definition:
+#+last_modified: [2023-05-10 Wed 20:51]
+#+setupfile: ~/Documents/org/latex_template.org
+Let \( G \) be a group and \( A \) a \( G \)-module (a set with a \( G \)-action). Let \( G \) act trivially on \( \mathbf{Z} \).
+Then the \( i \)th group cohomology of \( G \) with coefficients in \( A \) is defined as \( H^i(G,A) = \operatorname{Ext}^i_{\mathbf{Z}[G]}( \mathbf{Z} , A ) \).
+Here \( \operatorname{Ext}_G^i \) serves as the [[id:58a49504-b4d6-47bc-8261-066ff8373341][left derived functor]] of the bar resolution \( \mathbf{Z}[G^{\bullet}]\to \mathbf{Z} \) in the category of \( G \)-modules.
+See also [[id:3919322b-0cd8-4e9d-aa39-a1709d69e1f8][Ext]].

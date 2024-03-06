@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0cb58635-2d3c-4775-988b-4c83809a2e81
+:END:
+#+title: dimension of anyon is linked with its computation utility
+#+last_modified: [2023-09-16 Sat 14:58]
+#+setupfile: ~/Documents/org/latex_template.org
+Given an anyon \( a \) (simple object \( a \) in a [[id:59cc4766-c370-4c41-8541-d40d1c09c13d][fusion category]]), the *dimension* of \( a \), denoted \( d_a \) is the largest eigenvalue of the [[id:8079f2ac-766f-4f10-b476-c11379b5f64e][fusion matrix]] \([ N_a ]_{bc} = \dim  V_{a,b}^c = \operatorname{Hom}(a \otimes b, c)\).
+The Frobenius-Perron theorem guarantees that the eigenvalues will be real.
+
+The dimension is typically a sum of roots of unity, and its value is deeply connected to its use in quantum computation.

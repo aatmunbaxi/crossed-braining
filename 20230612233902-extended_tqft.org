@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       da243947-bb13-4aad-962d-5557898c7338
+:END:
+#+title: extended TQFT
+#+filetags: :definition:
+#+last_modified: [2023-06-12 Mon 23:39]
+#+setupfile: ~/Documents/org/latex_template.org
+A (fully) *extended TQFT* with values in an \( n \)-category \( \mathcal{C} \) is an \( n \)-functor \( Z: \mathsf{Bord}_n(n) \to \mathcal{C} \).
+
+These TQFTs were originally introduced by Lurie to [[id:7b2cb8d2-b8e0-4e86-b41f-5b2049bd09ad][provide a way to compute local data]] of TQFTs and generalize their pictures.
+
+See: [[id:dbdab25c-644a-4c8b-8ad0-cda00143dbf7][topological quantum field theory]] and [[id:1c9d6cc8-8ba2-4c57-9b71-e9a97ffd7146][extended cobordism category]]
