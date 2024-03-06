@@ -7,6 +7,7 @@ jobs:
   main:
     permissions:
       id-token: 'write'
+      pages: 'write'
     runs-on: ubuntu-latest
     steps:
       - name: Publish org-roam-ui page
