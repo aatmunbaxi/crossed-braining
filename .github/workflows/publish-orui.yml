@@ -9,8 +9,8 @@ jobs:
       id-token: 'write'
     runs-on: ubuntu-latest
     steps:
-      - name: Generate org-roam-ui page
-        uses: ikoamu/org-roam-ui-hosting@main
+      - name: Publish org-roam-ui page
+        uses: ikoamu/publish-org-roam-ui@v0.2.0
         with:
           org-roam-db-filename: org-roam.db
           deploy-to-pages: true
